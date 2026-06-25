@@ -1,5 +1,7 @@
 <p align="center">
   <img src="apps/website/public/soap.svg" alt="A pink bar of soap" width="160">
+  <br>
+  <sub><i>"The first soap was made from the ashes of heroes." — Tyler Durden</i></sub>
 </p>
 
 <h1 align="center">SimUser AI — Marketing Website</h1>
