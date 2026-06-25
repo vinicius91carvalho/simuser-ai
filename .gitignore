@@ -41,3 +41,7 @@ docs/session-learnings.md
 progress.json
 INVARIANTS.md
 .artifacts/
+
+playwright-report/
+.remember
+test-results
