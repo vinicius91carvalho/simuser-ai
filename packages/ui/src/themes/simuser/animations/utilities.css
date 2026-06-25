@@ -1,0 +1,184 @@
+/* SimUser AI — Animation Utility Classes */
+
+/* Tailwind v4 @utility for custom animation classes */
+@utility animate-fade-up {
+	animation: fade-up 0.6s ease-out forwards;
+}
+
+@utility animate-fade-in {
+	animation: fade-in 0.5s ease-out forwards;
+}
+
+@utility animate-fade-left {
+	animation: fade-left 0.6s ease-out forwards;
+}
+
+@utility animate-fade-right {
+	animation: fade-right 0.6s ease-out forwards;
+}
+
+@utility animate-scale-up {
+	animation: scale-up 0.5s ease-out forwards;
+}
+
+@utility animate-bounce-in {
+	animation: bounce-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@utility animate-glow-pulse {
+	animation: glow-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-shimmer {
+	animation: shimmer 2s linear infinite;
+	background-size: 200% 100%;
+}
+
+@utility animate-float {
+	animation: float 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-button-glow {
+	animation: button-glow 3.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-pulse-ring {
+	animation: pulse-ring 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-soft-pulse {
+	animation: soft-pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-scroll {
+	animation: scroll 30s linear infinite;
+}
+
+@utility animate-scroll-reverse {
+	animation: scroll-reverse 30s linear infinite;
+}
+
+@utility animate-accordion-down {
+	animation: accordion-down 0.2s ease-out;
+}
+
+@utility animate-accordion-up {
+	animation: accordion-up 0.2s ease-out;
+}
+
+@utility animate-depth-shift {
+	animation: depth-shift 0.6s ease-out forwards;
+}
+
+@utility animate-gradient-shift {
+	animation: gradient-shift 6s ease infinite;
+	background-size: 200% 200%;
+}
+
+@utility animate-typing-cursor {
+	animation: typing-cursor 1s step-end infinite;
+}
+
+@utility animate-progress-fill {
+	animation: progress-fill 1s ease-out forwards;
+}
+
+@utility animate-slide-in-right {
+	animation: slide-in-right 0.4s ease-out forwards;
+}
+
+/* Reduced motion — respect user preference */
+@media (prefers-reduced-motion: reduce) {
+	@utility animate-fade-up {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-fade-in {
+		animation: none;
+		opacity: 1;
+	}
+
+	@utility animate-fade-left {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-fade-right {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-scale-up {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-bounce-in {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-glow-pulse {
+		animation: none;
+	}
+
+	@utility animate-shimmer {
+		animation: none;
+	}
+
+	@utility animate-float {
+		animation: none;
+	}
+
+	@utility animate-button-glow {
+		animation: none;
+	}
+
+	@utility animate-pulse-ring {
+		animation: none;
+	}
+
+	@utility animate-soft-pulse {
+		animation: none;
+	}
+
+	@utility animate-scroll {
+		animation: none;
+	}
+
+	@utility animate-scroll-reverse {
+		animation: none;
+	}
+
+	@utility animate-depth-shift {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	@utility animate-gradient-shift {
+		animation: none;
+	}
+
+	@utility animate-typing-cursor {
+		animation: none;
+		opacity: 1;
+	}
+
+	@utility animate-progress-fill {
+		animation: none;
+		width: 100%;
+	}
+
+	@utility animate-slide-in-right {
+		animation: none;
+		opacity: 1;
+		transform: none;
+	}
+}

@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# next.js
+.next
+out
+
+# build
+dist
+.turbo
+
+# env
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+
+# test
+coverage
+tests/screenshots
+
+# screenshots (debug / playwright MCP)
+.screenshots
+.playwright-mcp
+
+# sst
+.sst
+
+# personal workflow artifacts (PRD tasks, sprint tracking, session state)
+docs/tasks/
+docs/session-learnings.md
+progress.json
+INVARIANTS.md
+.artifacts/

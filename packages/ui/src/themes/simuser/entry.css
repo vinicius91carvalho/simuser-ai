@@ -1,0 +1,11 @@
+/* SimUser AI Theme — Single Entry Point */
+
+/* Color tokens */
+@import "./tokens/dark.css";
+@import "./tokens/light.css";
+
+/* Typography */
+@import "./fonts/index.css";
+
+/* Animations — keyframe definitions only */
+@import "./animations/keyframes.css";

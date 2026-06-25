@@ -1,0 +1,40 @@
+{
+	"nav": {
+		"product": "Product",
+		"pricing": "Pricing",
+		"compare": "Compare",
+		"getStarted": "Join Waitlist",
+		"home": "Home"
+	},
+	"footer": {
+		"brand": {
+			"tagline": "AI-powered beta testing with synthetic personas that think, feel, and break your app like real users."
+		},
+		"product": {
+			"title": "Product",
+			"product": "Product",
+			"pricing": "Pricing",
+			"compare": "Compare"
+		},
+		"company": {
+			"title": "Company",
+			"contact": "Contact"
+		},
+		"legal": {
+			"title": "Legal",
+			"privacy": "Privacy Policy",
+			"terms": "Terms of Service"
+		},
+		"copyright": "SimUser AI. All rights reserved.",
+		"builtWith": "Built in Delaware, tested by AI."
+	},
+	"theme": {
+		"toggleDark": "Switch to dark mode",
+		"toggleLight": "Switch to light mode"
+	},
+	"language": {
+		"label": "Language",
+		"en": "English",
+		"pt-br": "Portugues"
+	}
+}

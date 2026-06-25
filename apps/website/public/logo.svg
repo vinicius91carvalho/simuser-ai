@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#0DD9B0"/>
+    </linearGradient>
+  </defs>
+  <!-- Content area centered with padding (offset by 56,40 to center in 400x400) -->
+  <!-- Primary user silhouette -->
+  <circle cx="228" cy="140" r="42" fill="url(#brandGrad)"/>
+  <path d="M228 192 C186 192, 142 222, 142 272 L142 286 C142 296, 150 302, 160 302 L296 302 C306 302, 314 296, 314 286 L314 272 C314 222, 270 192, 228 192Z" fill="url(#brandGrad)"/>
+  <!-- Secondary sim user -->
+  <circle cx="170" cy="155" r="35" fill="#0DD9B0" opacity="0.35"/>
+  <path d="M170 198 C136 198, 100 224, 100 266 L100 278 C100 286, 106 292, 114 292 L226 292 C234 292, 240 286, 240 278 L240 266 C240 224, 204 198, 170 198Z" fill="#0DD9B0" opacity="0.3"/>
+  <!-- Tertiary ghost user -->
+  <circle cx="130" cy="168" r="26" fill="#8B5CF6" opacity="0.18"/>
+  <path d="M130 200 C106 200, 80 218, 80 250 L80 258 C80 264, 85 268, 90 268 L170 268 C176 268, 180 264, 180 258 L180 250 C180 218, 154 200, 130 200Z" fill="#8B5CF6" opacity="0.15"/>
+</svg>

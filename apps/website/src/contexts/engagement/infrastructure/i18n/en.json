@@ -1,0 +1,84 @@
+{
+	"contact": {
+		"title": "Join the Waitlist",
+		"description": "No free trial — join the waitlist for early access when we launch in April 2026.",
+		"ctaTitle": "Ready to Transform Your Testing?",
+		"ctaSubtitle": "Join the waitlist — limited spots for teams that want to co-create the product.",
+		"ctaPrimary": "Get Early Access",
+		"ctaSecondary": "Or let's talk about your testing challenges",
+		"close": "Close",
+		"form": {
+			"firstName": "First Name",
+			"firstNamePlaceholder": "Jane",
+			"email": "Email",
+			"emailPlaceholder": "jane@company.com",
+			"companyName": "Company",
+			"companyNamePlaceholder": "Acme Corp",
+			"companyWebsite": "Website (optional)",
+			"companyWebsitePlaceholder": "https://acme.com",
+			"submit": "Join Waitlist",
+			"submitting": "Submitting..."
+		},
+		"success": {
+			"title": "You're on the list!",
+			"message": "We're launching April 2026. You'll be among the first to know."
+		},
+		"already": {
+			"title": "You're already on the list!",
+			"message": "We already have your details. Sit tight — we'll reach out soon."
+		},
+		"error": {
+			"generic": "Something went wrong. Please try again.",
+			"rateLimit": "Too many attempts. Please wait a moment."
+		},
+		"validation": {
+			"required": "This field is required",
+			"invalidEmail": "Please enter a valid email address"
+		},
+		"noSpam": "No spam, ever. We'll only email you about launch updates."
+	},
+	"getStarted": {
+		"badge": "Get Early Access",
+		"title": "Start Testing with AI Personas",
+		"subtitle": "Join the waitlist and be among the first to validate your product with AI personas that think like real users.",
+		"cta": { "primary": "Join Waitlist" },
+		"form": {
+			"nameLabel": "Full name",
+			"namePlaceholder": "Jane Doe",
+			"emailLabel": "Work email",
+			"emailPlaceholder": "you@company.com",
+			"companyLabel": "Company name",
+			"companyPlaceholder": "Acme Inc.",
+			"teamSizeLabel": "Team size",
+			"teamSizeOptions": {
+				"solo": "Solo / Indie Hacker",
+				"small": "2-10 people",
+				"medium": "11-50 people",
+				"large": "51-200 people",
+				"enterprise": "200+ people"
+			},
+			"submitButton": "Join Waitlist",
+			"submitting": "Joining...",
+			"successTitle": "You're on the list!",
+			"successDescription": "We'll reach out as soon as early access opens. Watch your inbox for updates.",
+			"errorName": "Please enter your name.",
+			"errorEmail": "Please enter a valid email address.",
+			"noSpam": "No spam, ever. We'll only contact you about launch updates."
+		},
+		"benefits": {
+			"heading": "What you get with early access",
+			"items": [
+				"Priority onboarding when we launch in April 2026",
+				"Extended trial with bonus credits",
+				"Direct access to the team for feedback",
+				"Shape the product roadmap with your input",
+				"Early adopter pricing locked in forever",
+				"Dedicated onboarding call with our team"
+			]
+		},
+		"founderNote": {
+			"heading": "Have questions? Talk to our team.",
+			"message": "Book a call and we'll walk you through how SimUser AI can help your team."
+		}
+	}
+}

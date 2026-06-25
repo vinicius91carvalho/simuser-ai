@@ -1,0 +1,84 @@
+{
+	"contact": {
+		"title": "Entre na Lista de Espera",
+		"description": "Sem versao gratuita — entre na lista de espera para acesso antecipado quando lancarmos no Abril 2026.",
+		"ctaTitle": "Pronto para Transformar Seus Testes?",
+		"ctaSubtitle": "Entre na lista de espera — vagas limitadas para equipes que querem co-criar o produto.",
+		"ctaPrimary": "Garantir Acesso Antecipado",
+		"ctaSecondary": "Ou vamos conversar sobre seus desafios de teste",
+		"close": "Fechar",
+		"form": {
+			"firstName": "Nome",
+			"firstNamePlaceholder": "Maria",
+			"email": "Email",
+			"emailPlaceholder": "maria@empresa.com",
+			"companyName": "Empresa",
+			"companyNamePlaceholder": "Empresa Ltda.",
+			"companyWebsite": "Site (opcional)",
+			"companyWebsitePlaceholder": "https://empresa.com",
+			"submit": "Entrar na Lista",
+			"submitting": "Enviando..."
+		},
+		"success": {
+			"title": "Voce esta na lista!",
+			"message": "Lancamos no Abril 2026. Voce sera um dos primeiros a saber."
+		},
+		"already": {
+			"title": "Voce ja esta na lista!",
+			"message": "Ja temos seus dados. Aguarde — entraremos em contato em breve."
+		},
+		"error": {
+			"generic": "Algo deu errado. Por favor, tente novamente.",
+			"rateLimit": "Muitas tentativas. Por favor, aguarde um momento."
+		},
+		"validation": {
+			"required": "Este campo e obrigatorio",
+			"invalidEmail": "Por favor, insira um endereco de email valido"
+		},
+		"noSpam": "Sem spam, nunca. So enviaremos emails sobre atualizacoes de lancamento."
+	},
+	"getStarted": {
+		"badge": "Acesso Antecipado",
+		"title": "Comece a Testar com Personas de IA",
+		"subtitle": "Entre na lista de espera e seja um dos primeiros a validar seu produto com personas de IA que pensam como usuarios reais.",
+		"cta": { "primary": "Entrar na Lista de Espera" },
+		"form": {
+			"nameLabel": "Nome completo",
+			"namePlaceholder": "Maria Silva",
+			"emailLabel": "Email profissional",
+			"emailPlaceholder": "voce@empresa.com",
+			"companyLabel": "Nome da empresa",
+			"companyPlaceholder": "Empresa Ltda.",
+			"teamSizeLabel": "Tamanho da equipe",
+			"teamSizeOptions": {
+				"solo": "Solo / Indie Hacker",
+				"small": "2-10 pessoas",
+				"medium": "11-50 pessoas",
+				"large": "51-200 pessoas",
+				"enterprise": "200+ pessoas"
+			},
+			"submitButton": "Entrar na Lista de Espera",
+			"submitting": "Entrando...",
+			"successTitle": "Voce esta na lista!",
+			"successDescription": "Entraremos em contato assim que o acesso antecipado abrir. Fique de olho na sua caixa de entrada.",
+			"errorName": "Por favor, insira seu nome.",
+			"errorEmail": "Por favor, insira um endereco de email valido.",
+			"noSpam": "Sem spam, nunca. So entraremos em contato sobre atualizacoes de lancamento."
+		},
+		"benefits": {
+			"heading": "O que voce ganha com acesso antecipado",
+			"items": [
+				"Onboarding prioritario quando lancarmos no Abril 2026",
+				"Trial estendido com creditos bonus",
+				"Acesso direto a equipe para feedback",
+				"Participe da definicao do roadmap do produto",
+				"Preco de early adopter garantido para sempre",
+				"Chamada de onboarding dedicada com nossa equipe"
+			]
+		},
+		"founderNote": {
+			"heading": "Tem perguntas? Fale com nossa equipe.",
+			"message": "Agende uma chamada e mostraremos como o SimUser AI pode ajudar sua equipe."
+		}
+	}
+}

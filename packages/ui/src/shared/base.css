@@ -1,0 +1,49 @@
+/* SimUser AI — Base CSS with Semantic Variable Mapping */
+
+@layer base {
+	* {
+		border-color: hsl(var(--border));
+	}
+
+	body {
+		background-color: hsl(var(--background));
+		color: hsl(var(--foreground));
+		font-family: var(--font-sans);
+		font-feature-settings:
+			"rlig" 1,
+			"calt" 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	/* Scrollbar styling for dark theme */
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: hsl(var(--muted));
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: hsl(var(--border));
+		border-radius: 4px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: hsl(var(--muted-foreground));
+	}
+
+	/* Focus visible ring */
+	:focus-visible {
+		outline: 2px solid hsl(var(--ring));
+		outline-offset: 2px;
+	}
+
+	/* Selection */
+	::selection {
+		background-color: hsl(var(--primary) / 0.3);
+		color: hsl(var(--foreground));
+	}
+}

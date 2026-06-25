@@ -1,0 +1,25 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@simuser/ui": ["../../packages/ui/src"],
+			"@simuser/ui/*": ["../../packages/ui/src/*"],
+			"@simuser/shared": ["../../packages/shared/src"],
+			"@simuser/shared/*": ["../../packages/shared/src/*"]
+		},
+		"jsx": "preserve",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"allowJs": true,
+		"noEmit": true,
+		"incremental": true
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+	"exclude": ["node_modules"]
+}

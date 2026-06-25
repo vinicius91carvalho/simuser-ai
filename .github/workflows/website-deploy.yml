@@ -1,0 +1,165 @@
+name: Website Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "Deployment stage"
+        required: false
+        default: staging
+        type: choice
+        options:
+          - staging
+          - production
+
+concurrency:
+  group: website-deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build & Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm turbo check-types
+
+      - name: Lint
+        run: pnpm exec biome check .
+
+      - name: Build
+        run: pnpm turbo build
+        env:
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+
+  deploy-staging:
+    name: Deploy to Staging
+    needs: build
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage == 'staging')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: staging
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Install SST
+        run: curl -fsSL https://sst.dev/install | VERSION=3.19.0 bash
+
+      - name: Build website
+        run: pnpm turbo build --force
+        env:
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+
+      - name: Refresh SST state
+        run: pnpm exec sst refresh --stage staging
+
+      - name: Deploy to staging
+        run: pnpm exec sst deploy --stage staging
+        env:
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+
+      - name: Invalidate CloudFront cache
+        continue-on-error: true
+        run: bash scripts/invalidate-cache.sh staging
+        env:
+          AWS_REGION: us-east-1
+
+      - name: Deployment summary
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          echo "### Website Staging Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL:** https://staging.simuser.ai" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** $COMMIT_SHA" >> $GITHUB_STEP_SUMMARY
+
+  deploy-production:
+    name: Deploy to Production
+    needs: [build, deploy-staging]
+    if: always() && needs.build.result == 'success' && github.event_name == 'workflow_dispatch' && github.event.inputs.stage == 'production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Install SST
+        run: curl -fsSL https://sst.dev/install | VERSION=3.19.0 bash
+
+      - name: Build website
+        run: pnpm turbo build --force
+        env:
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+
+      - name: Refresh SST state
+        run: pnpm exec sst refresh --stage production
+
+      - name: Deploy to production
+        run: pnpm exec sst deploy --stage production
+        env:
+          LOOPS_API_KEY: ${{ secrets.LOOPS_API_KEY }}
+
+      - name: Invalidate CloudFront cache
+        continue-on-error: true
+        run: bash scripts/invalidate-cache.sh production
+        env:
+          AWS_REGION: us-east-1
+
+      - name: Deployment summary
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          echo "### Website Production Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL:** https://simuser.ai" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** $COMMIT_SHA" >> $GITHUB_STEP_SUMMARY

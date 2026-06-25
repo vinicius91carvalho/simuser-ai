@@ -1,0 +1,1118 @@
+{
+	"home": {
+		"title": "Testes Beta com IA Usando Personas Sintéticas",
+		"subtitle": "SimUser AI cria personas de IA realistas que exploram sua aplicação web, descobrem problemas de usabilidade e entregam relatórios de experiência com pontuações NPS — antes que usuários reais vejam seu produto.",
+		"badge": "Lançamento Abril 2026",
+		"cta": {
+			"primary": "Garantir Acesso Antecipado",
+			"secondary": "Veja Como Funciona"
+		},
+		"metrics": {
+			"heading": "O Problema é Real",
+			"stat1": {
+				"value": "85%",
+				"label": "dos defeitos encontrados em produção custam 5-10x mais para corrigir do que durante os testes",
+				"source": "NIST",
+				"sourceUrl": "https://www.nist.gov/system/files/documents/director/planning/report02-3.pdf"
+			},
+			"stat2": {
+				"value": "69%",
+				"label": "dos gerentes de teste lutam para obter participação de testadores",
+				"source": "Centercode",
+				"sourceUrl": "https://www.centercode.com/blog/beta-test-challenges"
+			},
+			"stat3": {
+				"value": "$25K-$590K",
+				"label": "por ano para programas tradicionais de teste beta",
+				"source": "Applause/Testlio",
+				"sourceUrl": "https://www.applause.com/"
+			}
+		},
+		"whyNow": {
+			"heading": "Por Que Agora?",
+			"subheading": "A explosão do vibe coding está criando mais código — e mais bugs — do que nunca.",
+			"stat1": {
+				"value": "82%",
+				"label": "dos desenvolvedores usam ferramentas de IA semanalmente",
+				"source": "Stack Overflow 2025",
+				"sourceUrl": "https://survey.stackoverflow.co/2025/"
+			},
+			"stat2": {
+				"value": "41%",
+				"label": "de todo código é agora gerado por IA globalmente",
+				"source": "Second Talent, 2025",
+				"sourceUrl": "https://secondtalent.com/"
+			},
+			"stat3": {
+				"value": "1.7x",
+				"label": "mais problemas em pull requests gerados por IA",
+				"source": "CodeRabbit, Dez 2025",
+				"sourceUrl": "https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report"
+			},
+			"stat4": {
+				"value": "23.5%",
+				"label": "aumento de incidentes por pull request ao ano",
+				"source": "Cortex 2026 Benchmark",
+				"sourceUrl": "https://www.cortex.io/"
+			},
+			"conclusion": "A criação de código não é mais o gargalo — testes e validação de qualidade são."
+		},
+		"whyDifferent": {
+			"heading": "Por Que o SimUser AI é Diferente",
+			"subheading": "A única plataforma que combina simulação de personas com IA e testes em navegador ao vivo.",
+			"categories": {
+				"simuser": "SimUser AI",
+				"e2e": "Ferramentas E2E com IA",
+				"research": "Pesquisa com IA",
+				"crowdsourced": "Crowdsourced"
+			},
+			"features": {
+				"personas": "Simulação de Personas com IA",
+				"liveTesting": "Teste em App Web ao Vivo",
+				"uxFeedback": "Feedback Qualitativo de UX",
+				"nps": "Pontuação NPS",
+				"video": "Gravação de Vídeo",
+				"autoDiscovery": "Descoberta Automática de Fluxos",
+				"selfHealing": "Fluxos Auto-Corretivos"
+			}
+		},
+		"howItWorks": {
+			"heading": "Como Funciona",
+			"subheading": "Da URL a insights de UX acionáveis em minutos, não semanas.",
+			"step1": {
+				"title": "Forneça a URL do seu app",
+				"description": "Basta colar a URL da sua aplicação web. Sem SDK, sem alterações no código."
+			},
+			"step2": {
+				"title": "Descoberta automática de fluxos",
+				"description": "Nossa IA explora sua aplicação e mapeia todos os fluxos voltados ao usuário automaticamente."
+			},
+			"step3": {
+				"title": "Selecione ou personalize personas",
+				"description": "Escolha entre 7 personas integradas ou crie personalizadas para seu público-alvo."
+			},
+			"step4": {
+				"title": "Personas de IA exploram seu app",
+				"description": "Cada persona navega independentemente pelo seu app com padrões realistas de comportamento humano."
+			},
+			"step5": {
+				"title": "Capturas de tela + vídeo gravados",
+				"description": "Cada interação é registrada com capturas de tela, vídeo e logs detalhados de ações."
+			},
+			"step6": {
+				"title": "Receba relatórios de experiência",
+				"description": "Obtenha pontuações NPS, achados de usabilidade e recomendações acionáveis por persona."
+			}
+		},
+		"personas": {
+			"heading": "Conheça as Personas",
+			"subheading": "7 personas de IA integradas que pensam, sentem e quebram seu app como usuários reais.",
+			"newUser": {
+				"name": "Novo Usuário",
+				"techSavviness": "Baixa",
+				"patience": "Média",
+				"goals": "Completar tarefas básicas, entender proposta de valor",
+				"frustrations": "Jargão, navegação oculta, CTAs pouco claros"
+			},
+			"powerUser": {
+				"name": "Usuário Avançado",
+				"techSavviness": "Alta",
+				"patience": "Baixa",
+				"goals": "Eficiência, recursos avançados, atalhos de teclado",
+				"frustrations": "Fluxos lentos, confirmações desnecessárias"
+			},
+			"securityEngineer": {
+				"name": "Engenheiro de Segurança",
+				"techSavviness": "Alta",
+				"patience": "Média",
+				"goals": "Validar tratamento de dados, permissões, estados de erro",
+				"frustrations": "Tokens expostos, padrões inseguros, erros verbosos"
+			},
+			"accessibilityTester": {
+				"name": "Testador de Acessibilidade",
+				"techSavviness": "Média",
+				"patience": "Alta",
+				"goals": "Navegar com leitores de tela, uso apenas pelo teclado",
+				"frustrations": "Labels ARIA ausentes, baixo contraste, armadilhas de foco"
+			},
+			"nonTechnicalManager": {
+				"name": "Gerente Não-Técnico",
+				"techSavviness": "Baixa",
+				"patience": "Baixa",
+				"goals": "Extrair insights, gerar relatórios, compartilhar com equipe",
+				"frustrations": "Interfaces complexas, terminologia técnica"
+			},
+			"mobileUser": {
+				"name": "Usuário Mobile",
+				"techSavviness": "Média",
+				"patience": "Baixa",
+				"goals": "Completar fluxos em telas pequenas, interações por toque",
+				"frustrations": "Layouts não-responsivos, alvos de toque minúsculos"
+			},
+			"internationalUser": {
+				"name": "Usuário Internacional",
+				"techSavviness": "Média",
+				"patience": "Média",
+				"goals": "Validar localização, moeda, formatos de data",
+				"frustrations": "Strings fixas no código, conteúdo não traduzido, padrões centrados nos EUA"
+			},
+			"labels": {
+				"techSavviness": "Habilidade Técnica",
+				"patience": "Paciência",
+				"goals": "Objetivos",
+				"frustrations": "Gatilhos de Frustração"
+			}
+		},
+		"experienceReport": {
+			"heading": "Veja o Que Você Recebe",
+			"subheading": "Relatórios de experiência ricos com insights acionáveis de cada persona.",
+			"npsLabel": "Pontuação NPS",
+			"gradeLabel": "Nota de Qualidade",
+			"feedbackTitle": "Feedback das Personas",
+			"quote1": "Não consegui descobrir como voltar ao painel após criar um projeto.",
+			"quote1Author": "Novo Usuário",
+			"quote2": "O onboarding levou 4 cliques quando poderia levar 1. Os atalhos de teclado não são descobríveis.",
+			"quote2Author": "Usuário Avançado",
+			"quote3": "Mensagens de erro expõem stack traces internas. A chave da API está visível na aba de rede do navegador.",
+			"quote3Author": "Engenheiro de Segurança",
+			"screenshotsLabel": "Capturas de tela passo a passo",
+			"videoLabel": "Gravação completa da sessão em vídeo",
+			"bugsLabel": "Bugs e pontos de confusão identificados"
+		},
+		"usageModes": {
+			"heading": "Use do Seu Jeito",
+			"subheading": "Opções flexíveis de integração para se adequar ao seu fluxo de trabalho.",
+			"dashboard": {
+				"title": "Painel Web",
+				"description": "Interface web intuitiva para gerenciar fluxos, personas e relatórios."
+			},
+			"api": {
+				"title": "API",
+				"description": "API RESTful para acesso programático a todas as capacidades do SimUser AI."
+			},
+			"cicd": {
+				"title": "Integração CI/CD",
+				"description": "Acione testes de persona automaticamente em cada deploy."
+			},
+			"slack": {
+				"title": "Notificações Slack",
+				"description": "Receba alertas instantâneos quando personas encontram problemas no seu app."
+			},
+			"issueTracking": {
+				"title": "Push Jira/Linear",
+				"description": "Crie automaticamente issues a partir de achados das personas."
+			},
+			"customPersonas": {
+				"title": "Personas Customizadas",
+				"description": "Crie personas correspondentes ao seu público-alvo específico."
+			}
+		},
+		"security": {
+			"heading": "Segurança de Nível Enterprise",
+			"subheading": "A segurança dos seus dados é nossa prioridade máxima.",
+			"pii": {
+				"title": "Mascaramento PII",
+				"description": "Detecção e mascaramento automático de informações pessoais identificáveis em capturas de tela."
+			},
+			"encryption": {
+				"title": "Criptografia",
+				"description": "Criptografia AES-256 em repouso, TLS 1.3 em trânsito para todos os dados."
+			},
+			"isolation": {
+				"title": "Isolamento por Tenant",
+				"description": "Isolamento completo de dados entre tenants com chaves de criptografia dedicadas."
+			},
+			"retention": {
+				"title": "Retenção Configurável",
+				"description": "Retenção padrão de 30 dias com políticas customizáveis por organização."
+			},
+			"soc2": {
+				"title": "Roadmap SOC 2",
+				"description": "Certificação SOC 2 Tipo II planejada para Q4 2026."
+			},
+			"gdpr": {
+				"title": "GDPR e LGPD",
+				"description": "Conformidade total com regulações de proteção de dados GDPR e LGPD."
+			}
+		},
+		"founderCta": {
+			"heading": "Vamos conversar sobre seus desafios de teste",
+			"message": "Criamos o SimUser AI porque vimos o mesmo problema em todo lugar: equipes lançando produtos sem feedback real dos usuários. Se você está lidando com isso também, adoraríamos ouvir sobre."
+		},
+		"finalCta": {
+			"title": "Pronto para substituir seu programa de testes beta?",
+			"subtitle": "Garanta acesso antecipado e seja o primeiro a testar com personas de IA quando lançarmos no Abril 2026."
+		},
+		"logoCarousel": {
+			"heading": "Construído com Tecnologias em Que Você Confia"
+		},
+		"featureShowcase": {
+			"heading": "Veja o SimUser AI em Ação",
+			"subheading": "Explore como nossas personas de IA capturam telas, gravam sessões em vídeo e entregam feedback qualitativo em cada fluxo.",
+			"tabsLabel": "Capacidades dos recursos",
+			"tabs": {
+				"screenshots": "Captura de Tela",
+				"screenshotsShort": "Capturas",
+				"video": "Gravação de Vídeo",
+				"videoShort": "Vídeo",
+				"persona": "Avaliação de Persona",
+				"personaShort": "Avaliações"
+			},
+			"screenshots": {
+				"description": "SimUser captura uma tela em cada passo crítico — login, navegação, envio de formulário. Cada captura é anotada com observações da persona de IA.",
+				"step1": {
+					"label": "Passo 1: Página de Login",
+					"status": "Aprovado",
+					"note": "Observação da IA: Formulário de login é claro e acessível"
+				},
+				"step2": {
+					"label": "Passo 2: Navegação do Painel",
+					"status": "Aprovado",
+					"note": "Observação da IA: Menu de navegação é intuitivo"
+				},
+				"step3": {
+					"label": "Passo 3: Envio de Formulário",
+					"status": "Alerta",
+					"note": "Observação da IA: Botão de envio é difícil de encontrar no mobile"
+				},
+				"step4": {
+					"label": "Passo 4: Página de Confirmação",
+					"status": "Aprovado",
+					"note": "Observação da IA: Feedback de sucesso é claro"
+				}
+			},
+			"video": {
+				"description": "Assista a jornada completa do usuário — cada clique, rolagem e hesitação gravados. Momentos-chave são marcados automaticamente na linha do tempo.",
+				"playLabel": "Reproduzir gravação da sessão",
+				"duration": "2:34",
+				"recordedBadge": "Sessão Gravada",
+				"marker1": "0:05 — Clicou no botão Cadastrar",
+				"marker2": "0:12 — Hesitou na página de preços",
+				"marker3": "0:18 — Passou por recurso importante",
+				"marker4": "0:25 — Abandonou carrinho no checkout"
+			},
+			"personaReview": {
+				"description": "Cada persona de IA oferece uma perspectiva única — de especialista em acessibilidade a usuário iniciante. Avaliações são baseadas em interação real no navegador.",
+				"npsLabel": "Pontuação NPS",
+				"persona1": {
+					"name": "Ana",
+					"type": "Usuária Iniciante",
+					"nps": "6/10",
+					"quote": "O fluxo de onboarding foi confuso — não consegui encontrar a página de preços sem rolar por três seções.",
+					"findings": {
+						"usability": {
+							"severity": "warning",
+							"text": "Fluxo de cadastro requer 5 etapas — o padrão do setor é 3"
+						},
+						"navigation": {
+							"severity": "fail",
+							"text": "Página de preços inacessível pela navegação principal"
+						},
+						"helpText": {
+							"severity": "pass",
+							"text": "Dicas nos campos do formulário são claras e úteis"
+						},
+						"onboarding": {
+							"severity": "warning",
+							"text": "Sem tour guiado para novos usuários"
+						}
+					}
+				},
+				"persona2": {
+					"name": "Carlos",
+					"type": "Usuário Avançado",
+					"nps": "8/10",
+					"quote": "Os atalhos de teclado funcionam bem, mas o menu de ações em massa está escondido dois níveis abaixo.",
+					"findings": {
+						"efficiency": {
+							"severity": "pass",
+							"text": "Atalhos de teclado funcionam para todas as ações principais"
+						},
+						"bulkActions": {
+							"severity": "warning",
+							"text": "Menu de ações em massa enterrado dois níveis abaixo"
+						},
+						"search": {
+							"severity": "pass",
+							"text": "Busca suporta filtros avançados e operadores"
+						},
+						"customization": {
+							"severity": "pass",
+							"text": "Widgets do painel são totalmente reorganizáveis"
+						}
+					}
+				},
+				"persona3": {
+					"name": "Maria",
+					"type": "Especialista em Acessibilidade",
+					"nps": "5/10",
+					"quote": "Vários botões estão sem labels ARIA. O contraste de cores na barra lateral falha nos padrões WCAG AA.",
+					"findings": {
+						"ariaLabels": {
+							"severity": "fail",
+							"text": "12 elementos interativos sem rótulos ARIA"
+						},
+						"contrast": {
+							"severity": "fail",
+							"text": "Texto da barra lateral falha no WCAG AA (3.2:1, necessário 4.5:1)"
+						},
+						"keyboard": {
+							"severity": "warning",
+							"text": "Ordem de tabulação ignora o ícone de notificações"
+						},
+						"screenReader": {
+							"severity": "pass",
+							"text": "Regiões de conteúdo principal anunciadas corretamente"
+						}
+					}
+				},
+				"categoryLabels": {
+					"usability": "Usabilidade",
+					"navigation": "Navegação",
+					"helpText": "Texto de Ajuda",
+					"onboarding": "Onboarding",
+					"efficiency": "Eficiência",
+					"bulkActions": "Ações em Massa",
+					"search": "Busca",
+					"customization": "Personalização",
+					"ariaLabels": "Rótulos ARIA",
+					"contrast": "Contraste",
+					"keyboard": "Nav. por Teclado",
+					"screenReader": "Leitor de Tela"
+				}
+			}
+		},
+		"selfHealing": {
+			"heading": "Fluxos de Teste Auto-Corretivos",
+			"subheading": "Quando seu código muda, o SimUser AI se adapta automaticamente. Sem testes quebrados, sem reconfiguração manual.",
+			"before": {
+				"label": "O Jeito Antigo",
+				"codeChanges": "Mudanças de código implantadas",
+				"testBreaks": "Testes E2E quebram imediatamente",
+				"manualFix": "Correção manual necessária por engenheiros",
+				"hoursWasted": "Horas desperdiçadas em manutenção de testes"
+			},
+			"after": {
+				"label": "O Jeito SimUser",
+				"codeChanges": "Mudanças de código implantadas",
+				"detectsChange": "SimUser detecta mudança na UI",
+				"adaptsFlow": "Auto-adapta fluxos de teste",
+				"testsPass": "Testes continuam passando automaticamente"
+			},
+			"example": {
+				"heading": "Exemplo Real",
+				"description": "Sua equipe renomeia um botão de 'Enviar' para 'Submeter' — testes E2E tradicionais quebram instantaneamente. A IA do SimUser reconhece que a intenção não mudou e adapta o fluxo automaticamente. Sem intervenção de engenheiros."
+			},
+			"stat1": {
+				"value": "60-80%",
+				"label": "Redução na manutenção de testes"
+			},
+			"stat2": {
+				"value": "81%",
+				"label": "Economia de custos vs QA tradicional"
+			}
+		},
+		"faq": {
+			"heading": "Perguntas Frequentes",
+			"subheading": "Tudo que você precisa saber sobre o SimUser AI.",
+			"q1": {
+				"question": "Como o SimUser AI é diferente de ferramentas tradicionais de teste E2E?",
+				"answer": "Ferramentas de teste E2E (Playwright, Cypress) verificam se as funcionalidades funcionam — 'o botão clica?'. O SimUser AI avalia se as funcionalidades entregam uma boa experiência — 'um usuário iniciante entenderia esse fluxo?'. Complementamos os testes E2E, sem substituí-los."
+			},
+			"q2": {
+				"question": "Quão precisas são as personas de IA?",
+				"answer": "Nossas personas são baseadas em interação real no navegador, não feedback hipotético. Cada persona carrega perfis comportamentais (níveis de paciência, habilidade técnica, objetivos, gatilhos de frustração) que influenciam como navegam seu app. Pesquisas acadêmicas mostram que feedback simulado cobre 70% dos cenários explorados por participantes humanos e identifica 80% dos problemas de usabilidade."
+			},
+			"q3": {
+				"question": "Quanto tempo leva para configurar?",
+				"answer": "Minutos, não semanas. Basta fornecer a URL da sua aplicação e credenciais opcionais. O motor de descoberta automática do SimUser AI mapeia os fluxos da sua aplicação automaticamente — sem integração de SDK, sem mudanças no código, sem scripts de teste para escrever."
+			},
+			"q4": {
+				"question": "O que acontece quando minha UI muda?",
+				"answer": "O motor auto-corretivo do SimUser AI detecta automaticamente mudanças no código, re-descobre fluxos afetados e adapta definições de teste — eliminando a carga de manutenção de 60-80% que aflige automação de testes tradicional."
+			},
+			"q5": {
+				"question": "Meus dados estão seguros?",
+				"answer": "Absolutamente. Usamos criptografia AES-256 em repouso, TLS 1.3 em trânsito, e armazenamos credenciais no AWS Secrets Manager. Seus dados nunca são usados para treinar modelos de IA, e o AWS Bedrock garante que provedores de modelo não têm acesso aos seus prompts. Estamos no caminho para certificação SOC 2 Tipo II."
+			},
+			"q6": {
+				"question": "O que um crédito inclui?",
+				"answer": "Cada crédito executa uma persona de IA em um fluxo (7-10 passos). Isso inclui capturas de tela em cada passo, gravação completa de vídeo da sessão e um relatório de experiência completo com pontuação NPS, feedback qualitativo e detecção de bugs. Executar 5 personas em 1 fluxo custa 5 créditos."
+			},
+			"q7": {
+				"question": "Posso integrar o SimUser AI com meu pipeline CI/CD existente?",
+				"answer": "Sim! Suportamos GitHub Actions nativamente, com GitLab CI, Bitbucket Pipelines e CircleCI em breve. Acione testes de persona automaticamente em cada deploy e receba resultados diretamente no seu fluxo de trabalho."
+			},
+			"q8": {
+				"question": "Preciso escrever algum código?",
+				"answer": "Não. O SimUser AI descobre automaticamente os fluxos da sua aplicação, executa personas de IA neles e gera relatórios de experiência — tudo sem escrever uma única linha de código de teste. Você também pode criar personas customizadas e definir fluxos manualmente pelo nosso painel web."
+			}
+		}
+	},
+	"product": {
+		"title": "Como o SimUser AI Funciona",
+		"subtitle": "Um pipeline completo com IA da URL a insights de UX acionáveis. Sem SDKs, sem alterações no código, sem testadores humanos.",
+		"badge": "Mergulho no Produto",
+		"cta": {
+			"primary": "Entrar na Lista de Espera",
+			"secondary": "Ver Preços"
+		},
+		"repoIntegration": {
+			"heading": "Conecte Seu Repositório",
+			"subheading": "Vincule seu código-fonte e o SimUser AI detecta mudanças automaticamente, dispara execuções de teste e mantém seus fluxos sincronizados.",
+			"step1": "Conecte seu repositório GitHub ou GitLab",
+			"step2": "SimUser AI detecta novos commits e PRs",
+			"step3": "Dispara automaticamente sessões de teste com personas",
+			"step4": "Resultados publicados como comentários no PR e alertas no Slack",
+			"caption": "Integração CI/CD perfeita — teste cada deploy com zero esforço manual."
+		},
+		"discovery": {
+			"heading": "Descoberta Automática de Fluxos",
+			"subheading": "Forneça a URL e credenciais do seu app. O motor de descoberta do SimUser AI mapeia automaticamente os fluxos da sua aplicação.",
+			"step1": "Forneça a URL da aplicação + credenciais",
+			"step2": "Agente Playwright explora sua aplicação",
+			"step3": "Identifica caminhos de navegação e elementos interativos",
+			"step4": "Constrói mapas estruturados de fluxos (7-10 passos cada)",
+			"step5": "Usuários podem modificar ou criar fluxos manualmente",
+			"caption": "Cada fluxo representa uma jornada significativa do usuário — Cadastro, Onboarding, Checkout, etc."
+		},
+		"dashboard": {
+			"heading": "Painel & Gerenciamento de Fluxos",
+			"subheading": "Um centro de comando para gerenciar seus fluxos, personas e resultados de teste em um só lugar.",
+			"flowDiagrams": "Diagramas Visuais de Fluxos",
+			"flowDiagramsDesc": "Representações visuais interativas de cada fluxo de usuário descoberto, com caminhos de navegação passo a passo.",
+			"manualFlows": "Construtor Manual de Fluxos",
+			"manualFlowsDesc": "Crie e personalize fluxos manualmente quando precisar de controle preciso sobre jornadas específicas do usuário.",
+			"manualPersonas": "Gerenciador de Personas",
+			"manualPersonasDesc": "Configure perfis de persona, atribua-os a fluxos e ajuste parâmetros comportamentais.",
+			"liveStatus": "Status de Teste ao Vivo",
+			"liveStatusDesc": "Monitoramento em tempo real de sessões de teste ativas com atualizações de progresso e resultados preliminares."
+		},
+		"personas": {
+			"heading": "Motor de Personas com IA",
+			"subheading": "7 personas integradas com perfis comportamentais completos. Cada uma carrega níveis de paciência, habilidade técnica, objetivos e gatilhos de frustração.",
+			"selectLabel": "Selecione personas para seus fluxos",
+			"deployLabel": "Cada persona navega independentemente",
+			"customLabel": "Crie personas customizadas para seu público"
+		},
+		"execution": {
+			"heading": "Motor de Execução",
+			"subheading": "Loop agêntico com até 30 turnos por sessão. Cada persona navega seu app com padrões realistas de comportamento humano.",
+			"tools": "14 Ferramentas de Navegador",
+			"toolsDesc": "Navegação, clique, entrada de formulário, upload de arquivo, rolagem, espera, captura de tela, interceptação de rede e validação de assertivas.",
+			"screenshots": "Captura de Tela",
+			"screenshotsDesc": "Cada passo de interação é capturado como screenshot para evidência visual.",
+			"video": "Gravação de Vídeo",
+			"videoDesc": "Vídeo completo da sessão mostrando exatamente como a persona navegou seu app.",
+			"actions": "Logs de Ações",
+			"actionsDesc": "Logs detalhados de cada ponto de decisão e observação que a persona fez."
+		},
+		"reports": {
+			"heading": "Motor de Relatórios",
+			"subheading": "Relatórios de experiência abrangentes que transformam interações brutas em inteligência de produto acionável.",
+			"nps": "Pontuação NPS (0-10)",
+			"npsDesc": "Reflete a experiência geral da persona baseada no perfil comportamental e fricção encontrada.",
+			"feedback": "Feedback Qualitativo",
+			"feedbackDesc": "Observações em linguagem de usuário, não linguagem técnica de QA — 'Não consegui descobrir como voltar ao painel.'",
+			"bugs": "Detecção de Bugs",
+			"bugsDesc": "Problemas funcionais, links quebrados, estados de erro e comportamentos inesperados encontrados durante a sessão.",
+			"confusion": "Pontos de Confusão",
+			"confusionDesc": "Momentos onde a persona hesitou, voltou atrás ou não encontrou o caminho esperado.",
+			"grade": "Nota de Qualidade (A-F)",
+			"gradeDesc": "Detalhamento por NPS, conclusão de objetivos, bugs encontrados e pontos de confusão.",
+			"consolidated": "Relatórios Consolidados",
+			"consolidatedDesc": "Síntese multi-persona: '3 de 5 personas falharam em completar o checkout no mesmo passo do formulário de pagamento.'"
+		},
+		"selfHealing": {
+			"heading": "Arquitetura Auto-Corretiva",
+			"subheading": "Quando seu código muda, o SimUser AI se adapta automaticamente. Sem testes quebrados, sem reconfiguração manual.",
+			"step1": "Detecção de Mudanças",
+			"step1Desc": "Detecta que fluxos previamente mapeados não correspondem mais ao estado atual da aplicação.",
+			"step2": "Re-Descoberta",
+			"step2Desc": "Agente de IA re-explora áreas afetadas, identificando novos elementos, caminhos modificados e interações alteradas.",
+			"step3": "Adaptação de Fluxos",
+			"step3Desc": "Definições de fluxo existentes são atualizadas. Novos passos adicionados, passos removidos podados, interações modificadas ajustadas.",
+			"step4": "Re-Calibração de Personas",
+			"step4Desc": "Sessões de persona re-executam contra fluxos atualizados, garantindo que o feedback reflita o estado atual do produto.",
+			"stat1": "60-80%",
+			"stat1Label": "redução na manutenção de testes",
+			"stat2": "81%",
+			"stat2Label": "economia de custos vs QA tradicional",
+			"source": "Virtuoso QA",
+			"sourceUrl": "https://www.virtuosoqa.com/"
+		},
+		"architecture": {
+			"heading": "Visão Geral da Arquitetura",
+			"subheading": "Quatro camadas integradas trabalhando juntas para entregar uma experiência completa de testes beta com IA.",
+			"layer1": "Camada de Descoberta",
+			"layer2": "Camada de Personas",
+			"layer3": "Camada de Execução",
+			"layer4": "Camada de Relatórios"
+		},
+		"founderCta": {
+			"heading": "Quer ver em ação?",
+			"message": "Adoraríamos mostrar como o SimUser AI funciona com seu produto real. Agende uma demo rápida e veja personas reais testando seu app ao vivo."
+		},
+		"finalCta": {
+			"title": "Pronto para ver seu app pelos olhos dos seus usuários?",
+			"subtitle": "Entre na lista de espera e seja o primeiro a testar com personas de IA."
+		}
+	},
+	"pricing": {
+		"title": "Preços Simples, Baseados em Créditos",
+		"subtitle": "Pague apenas pelo que usar. Cada crédito executa uma persona em um fluxo — incluindo capturas de tela, vídeo e relatório completo de experiência.",
+		"badge": "Sem Plano Gratuito — Por Design",
+		"cta": {
+			"primary": "Entrar na Lista de Espera",
+			"secondary": "Falar com Nossa Equipe"
+		},
+		"plans": {
+			"starter": {
+				"name": "Starter",
+				"price": "$49",
+				"period": "/mês",
+				"credits": "50 créditos",
+				"overage": "$1,20/crédito excedente",
+				"target": "Fundadores solo, indie hackers",
+				"features": [
+					"50 créditos/mês",
+					"7 personas integradas",
+					"Descoberta automática de fluxos",
+					"Relatórios de experiência com NPS",
+					"Capturas de tela + gravação de vídeo",
+					"Suporte por email"
+				]
+			},
+			"growth": {
+				"name": "Growth",
+				"price": "$149",
+				"period": "/mês",
+				"credits": "200 créditos",
+				"overage": "$0,90/crédito excedente",
+				"target": "Startups, equipes pequenas de produto",
+				"popular": true,
+				"features": [
+					"200 créditos/mês",
+					"Tudo do Starter",
+					"Personas customizadas",
+					"Notificações Slack",
+					"Suporte prioritário",
+					"Integração CI/CD"
+				]
+			},
+			"scale": {
+				"name": "Scale",
+				"price": "$399",
+				"period": "/mês",
+				"credits": "600 créditos",
+				"overage": "$0,75/crédito excedente",
+				"target": "Mid-market, múltiplos produtos",
+				"features": [
+					"600 créditos/mês",
+					"Tudo do Growth",
+					"Integração Jira/Linear",
+					"Acesso API",
+					"Relatórios consolidados",
+					"Suporte dedicado"
+				]
+			},
+			"enterprise": {
+				"name": "Enterprise",
+				"price": "Personalizado",
+				"period": "",
+				"credits": "Volume personalizado",
+				"overage": "Descontos por volume",
+				"target": "Grandes organizações",
+				"features": [
+					"Volume personalizado de créditos",
+					"Tudo do Scale",
+					"SSO / SAML",
+					"Opção on-premise",
+					"SLA personalizado",
+					"Gerente de conta dedicado"
+				]
+			}
+		},
+		"creditPacks": {
+			"heading": "Pacotes de Créditos Pré-Pagos",
+			"subheading": "Economize 10-25% com pacotes pré-pagos.",
+			"pack1": "100 créditos por $90",
+			"pack2": "500 créditos por $400",
+			"pack3": "1.000 créditos por $750"
+		},
+		"whatIsCredit": "1 crédito = 1 persona executando 1 fluxo (7-10 passos, capturas de tela, vídeo, relatório de experiência)",
+		"roi": {
+			"heading": "Calculadora de ROI",
+			"subheading": "Veja quanto você poderia economizar com o SimUser AI.",
+			"testersLabel": "Testadores beta atuais",
+			"costLabel": "Custo por testador/mês",
+			"hoursLabel": "Horas gerenciando programa beta/semana",
+			"resultSavings": "Economia anual",
+			"resultTime": "Horas economizadas por ano",
+			"resultCredits": "Créditos equivalentes do SimUser AI",
+			"perYear": "/ano",
+			"hours": "horas"
+		},
+		"comparison": {
+			"heading": "Como Nos Comparamos",
+			"subheading": "SimUser AI vs abordagens tradicionais e de testes com IA.",
+			"headers": {
+				"capability": "Capacidade",
+				"simuser": "SimUser AI",
+				"momentic": "Ferramenta E2E com IA",
+				"qaWolf": "Serviço Gerenciado de QA",
+				"syntheticUsers": "Ferramenta de Entrevistas com IA",
+				"uxia": "Analisador de Design",
+				"applause": "Plataforma Crowdsourced"
+			},
+			"rows": {
+				"personas": "Simulação de personas com IA",
+				"liveTesting": "Teste em app web ao vivo",
+				"uxFeedback": "Feedback qualitativo de UX",
+				"nps": "Pontuação NPS",
+				"video": "Gravação de vídeo",
+				"autoDiscovery": "Descoberta automática de fluxos",
+				"selfHealing": "Fluxos auto-corretivos",
+				"creditPricing": "Preços baseados em créditos",
+				"startupPricing": "Preços acessíveis para startups",
+				"noHumans": "Sem testadores humanos necessários"
+			}
+		},
+		"faq": {
+			"heading": "Perguntas Frequentes",
+			"q1": "O que é um crédito?",
+			"a1": "Cada crédito representa uma persona executando um fluxo pela sua aplicação. Um fluxo consiste em 7-10 passos que a persona de IA navega, incluindo capturas de tela, gravação de vídeo e relatório completo de experiência com pontuação NPS. Executar 5 personas em 1 fluxo = 5 créditos.",
+			"q2": "Quantos créditos eu preciso?",
+			"a2": "Depende das suas necessidades de teste. Uma startup típica pode executar 5-10 fluxos com 5 personas cada, usando 25-50 créditos por ciclo de teste. O plano Starter (50 créditos/mês) cobre a maioria das necessidades de estágio inicial.",
+			"q3": "Por que não tem plano gratuito?",
+			"a3": "O SimUser AI usa recursos computacionais intensivos para cada teste (inferência LLM, automação de navegador, gravação de vídeo, armazenamento). Planos gratuitos em produtos de IA tipicamente resultam em 95-98% de usuários não-convertidos que representam custo puro. Em vez disso, oferecemos um teste gratuito de 7 dias com 10 créditos — suficiente para experimentar o valor completo antes de se comprometer.",
+			"q4": "Como isso é diferente de testes E2E?",
+			"a4": "Ferramentas de teste E2E (Playwright, Cypress) verificam se funcionalidades funcionam — 'o botão clica?'. SimUser AI avalia se funcionalidades entregam uma boa experiência — 'um usuário de primeira vez entenderia esse fluxo?'. Complementamos testes E2E, não os substituímos.",
+			"q5": "Posso criar personas customizadas?",
+			"a5": "Sim! Além das 7 personas integradas, você pode criar personas customizadas adaptadas ao seu produto e público específicos. Defina habilidade técnica, nível de paciência, objetivos e gatilhos de frustração para corresponder aos seus usuários reais.",
+			"q6": "Quais navegadores são suportados?",
+			"a6": "O SimUser AI usa Playwright para automação de navegador, suportando Chromium, Firefox e WebKit — cobrindo aproximadamente 95% do uso global de navegadores. Emulação de dispositivos móveis também está disponível com mais de 30 descritores de dispositivos.",
+			"q7": "Vocês armazenam minhas credenciais de aplicação?",
+			"a7": "Credenciais são criptografadas em repouso (AES-256) e em trânsito (TLS 1.3), armazenadas no AWS Secrets Manager, e nunca registradas ou transmitidas para endpoints de inferência LLM. São usadas apenas durante a execução de testes.",
+			"q8": "O que acontece quando meu app muda?",
+			"a8": "O motor auto-corretivo do SimUser AI detecta automaticamente mudanças no código, re-descobre fluxos afetados e adapta definições de teste — eliminando a carga de manutenção de 60-80% que aflige automação de testes tradicional."
+		},
+		"founderCta": {
+			"heading": "Perguntas sobre preços?",
+			"message": "Teremos prazer em explicar qual plano faz sentido para sua equipe. Sem pitch de vendas — apenas conselho honesto."
+		},
+		"finalCta": {
+			"title": "Comece a testar com personas de IA hoje",
+			"subtitle": "Garanta o preço de early adopter e ganhe créditos bônus quando lançarmos."
+		}
+	},
+	"security": {
+		"title": "Segurança de Nível Enterprise",
+		"subtitle": "A segurança dos seus dados é nossa prioridade máxima. SimUser AI implementa práticas de preservação de privacidade em cada camada.",
+		"badge": "Segurança e Conformidade",
+		"cta": {
+			"primary": "Entrar na Lista de Espera"
+		},
+		"layers": {
+			"heading": "Camadas de Segurança da Arquitetura",
+			"subheading": "Defesa em profundidade — cinco camadas protegendo seus dados em cada nível.",
+			"waf": {
+				"title": "WAF e Rate Limiting",
+				"description": "Firewall de Aplicação Web e limitação inteligente de taxa protegem contra DDoS, força bruta e abuso."
+			},
+			"network": {
+				"title": "Isolamento de Rede",
+				"description": "Isolamento de rede baseado em VPC com sub-redes privadas, grupos de segurança e sem endpoints de banco de dados públicos."
+			},
+			"encryption": {
+				"title": "Criptografia de Credenciais",
+				"description": "Criptografia AES-256 em repouso via AWS Secrets Manager. TLS 1.3 em trânsito para todos os dados."
+			},
+			"database": {
+				"title": "Isolamento de Banco de Dados",
+				"description": "Isolamento de dados por tenant com chaves de criptografia dedicadas."
+			},
+			"audit": {
+				"title": "Log de Auditoria",
+				"description": "Trilha de auditoria abrangente para todo acesso a dados, uso de credenciais e ações administrativas."
+			}
+		},
+		"aiCommitments": {
+			"heading": "Compromissos de Segurança IA/LLM",
+			"subheading": "O que prometemos sobre como usamos modelos de IA com seus dados.",
+			"noTraining": {
+				"title": "Sem Treinamento em Dados do Cliente",
+				"description": "Seus dados de aplicação, capturas de tela e resultados de teste nunca são usados para treinar nenhum modelo de IA."
+			},
+			"noAccess": {
+				"title": "Zero Acesso do Provedor de Modelo",
+				"description": "AWS Bedrock garante que provedores de modelo (Anthropic) não têm acesso aos seus prompts e completions."
+			},
+			"iso": {
+				"title": "ISO/IEC 42001",
+				"description": "AWS Bedrock possui certificação ISO/IEC 42001 — o padrão internacional para sistemas de gestão de IA."
+			},
+			"privateLink": {
+				"title": "Conectividade Privada",
+				"description": "AWS PrivateLink garante que chamadas de API LLM nunca trafeguem pela internet pública."
+			},
+			"guardrails": {
+				"title": "Guardrails de IA e Mascaramento PII",
+				"description": "Detecção e mascaramento automático de PII em capturas de tela antes que qualquer dado seja enviado para inferência LLM."
+			}
+		},
+		"compliance": {
+			"heading": "Roadmap de Conformidade",
+			"subheading": "Nosso caminho para cobertura abrangente de conformidade.",
+			"gdpr": {
+				"title": "GDPR",
+				"status": "Planejado",
+				"description": "Templates DPIA, SCCs para transferências internacionais, Artigo 25 proteção de dados por design."
+			},
+			"soc2": {
+				"title": "SOC 2 Tipo II",
+				"status": "Q4 2026",
+				"description": "Certificação SOC 2 Tipo II planejada para Q4 2026."
+			},
+			"lgpd": {
+				"title": "LGPD",
+				"status": "Planejado",
+				"description": "Solicitações de titulares em 15 dias, notificação de violação em 72 horas, SCCs aprovados pela ANPD."
+			},
+			"iso27001": {
+				"title": "ISO 27001",
+				"status": "2028",
+				"description": "Certificação de sistema de gestão de segurança da informação planejada para 2028."
+			}
+		},
+		"dataProtection": {
+			"heading": "Proteção de Dados por Design",
+			"subheading": "Privacidade está embutida em cada camada do SimUser AI, não adicionada depois.",
+			"pii": {
+				"title": "Detecção e Mascaramento PII",
+				"description": "Capturas de tela são processadas para detectar e redigir PII antes do armazenamento ou transmissão LLM."
+			},
+			"credentials": {
+				"title": "Isolamento de Credenciais",
+				"description": "Criptografia AES-256 em repouso, TLS 1.3 em trânsito. Armazenadas no AWS Secrets Manager."
+			},
+			"retention": {
+				"title": "Retenção Configurável",
+				"description": "Retenção padrão de 30 dias com políticas customizáveis. Clientes podem definir retenção mais curta ou exclusão imediata."
+			},
+			"isolation": {
+				"title": "Isolamento de Dados por Tenant",
+				"description": "Dados de cada cliente são isolados — sem mistura entre clientes em chamadas LLM, sem buckets compartilhados."
+			}
+		},
+		"founderCta": {
+			"heading": "Tem perguntas de segurança?",
+			"message": "Segurança é essencial para nossa equipe após anos liderando equipes de SRE e Segurança. Teremos prazer em detalhar nossa arquitetura de segurança."
+		},
+		"finalCta": {
+			"title": "Confie no SimUser AI com sua aplicação",
+			"subtitle": "Segurança de nível enterprise desde o primeiro dia. Entre na lista de espera."
+		}
+	},
+	"integrations": {
+		"title": "Integrações",
+		"subtitle": "Conecte o SimUser AI ao seu fluxo de trabalho existente. Envie achados para rastreadores de issues, receba notificações no Slack e acione testes pelo CI/CD.",
+		"badge": "Ecossistema",
+		"cta": {
+			"primary": "Entrar na Lista de Espera"
+		},
+		"tabs": {
+			"all": "Todos",
+			"issueTracking": "Rastreamento de Issues",
+			"communication": "Comunicação",
+			"cicd": "CI/CD",
+			"design": "Design",
+			"analytics": "Analytics",
+			"auth": "Autenticação",
+			"crm": "CRM"
+		},
+		"catalog": {
+			"jira": {
+				"name": "Jira",
+				"category": "issueTracking",
+				"description": "Envie achados de personas como issues do Jira automaticamente.",
+				"status": "available"
+			},
+			"linear": {
+				"name": "Linear",
+				"category": "issueTracking",
+				"description": "Crie issues no Linear a partir de insights de relatórios.",
+				"status": "available"
+			},
+			"notion": {
+				"name": "Notion",
+				"category": "issueTracking",
+				"description": "Envie achados para bancos de dados Notion para backlog.",
+				"status": "available"
+			},
+			"githubIssues": {
+				"name": "GitHub Issues",
+				"category": "issueTracking",
+				"description": "Crie issues no GitHub a partir de bugs e pontos de confusão.",
+				"status": "comingSoon"
+			},
+			"asana": {
+				"name": "Asana",
+				"category": "issueTracking",
+				"description": "Envie tarefas para projetos Asana a partir de feedback.",
+				"status": "comingSoon"
+			},
+			"clickup": {
+				"name": "ClickUp",
+				"category": "issueTracking",
+				"description": "Crie tarefas no ClickUp a partir de achados de relatórios.",
+				"status": "comingSoon"
+			},
+			"slack": {
+				"name": "Slack",
+				"category": "communication",
+				"description": "Receba notificações instantâneas quando personas encontram problemas.",
+				"status": "available"
+			},
+			"teams": {
+				"name": "Microsoft Teams",
+				"category": "communication",
+				"description": "Receba resultados de teste de personas em canais do Teams.",
+				"status": "comingSoon"
+			},
+			"discord": {
+				"name": "Discord",
+				"category": "communication",
+				"description": "Receba notificações no Discord quando testes terminam.",
+				"status": "comingSoon"
+			},
+			"email": {
+				"name": "Email",
+				"category": "communication",
+				"description": "Receba resumos detalhados por email dos resultados.",
+				"status": "comingSoon"
+			},
+			"githubActions": {
+				"name": "GitHub Actions",
+				"category": "cicd",
+				"description": "Acione testes de persona a cada deploy.",
+				"status": "available"
+			},
+			"gitlabCI": {
+				"name": "GitLab CI",
+				"category": "cicd",
+				"description": "Integre testes de persona em pipelines GitLab.",
+				"status": "comingSoon"
+			},
+			"bitbucket": {
+				"name": "Bitbucket Pipelines",
+				"category": "cicd",
+				"description": "Execute testes de persona a partir do CI/CD Bitbucket.",
+				"status": "comingSoon"
+			},
+			"circleCI": {
+				"name": "CircleCI",
+				"category": "cicd",
+				"description": "Adicione testes de persona a workflows CircleCI.",
+				"status": "comingSoon"
+			},
+			"figma": {
+				"name": "Figma",
+				"category": "design",
+				"description": "Compare mockups de design com experiência do app ao vivo.",
+				"status": "comingSoon"
+			},
+			"mixpanel": {
+				"name": "Mixpanel",
+				"category": "analytics",
+				"description": "Correlacione achados de IA com analytics reais de usuários.",
+				"status": "comingSoon"
+			},
+			"amplitude": {
+				"name": "Amplitude",
+				"category": "analytics",
+				"description": "Cruze feedback de personas com analytics de produto.",
+				"status": "comingSoon"
+			},
+			"sso": {
+				"name": "SSO / SAML",
+				"category": "auth",
+				"description": "Single sign-on enterprise para gestão de acesso da equipe.",
+				"status": "comingSoon"
+			}
+		},
+		"statusLabels": {
+			"available": "Disponível",
+			"comingSoon": "Em Breve"
+		},
+		"principles": {
+			"heading": "Princípios de Integração",
+			"subheading": "Como abordamos cada integração.",
+			"easySetup": {
+				"title": "Configuração Fácil",
+				"description": "Conecte em minutos com chaves de API ou OAuth. Sem código personalizado."
+			},
+			"readOnly": {
+				"title": "Somente Leitura por Padrão",
+				"description": "Integrações só escrevem o que você configura. Sem acesso inesperado a dados."
+			},
+			"minimalPerms": {
+				"title": "Permissões Mínimas",
+				"description": "Solicitamos apenas as permissões necessárias — nunca acesso amplo a conta."
+			},
+			"noSensitive": {
+				"title": "Sem Armazenamento de Dados Sensíveis",
+				"description": "Tokens de integração são criptografados e nunca registrados ou expostos."
+			},
+			"crossPlatform": {
+				"title": "Multiplataforma",
+				"description": "Funciona com suas ferramentas independente da plataforma ou modelo de deploy."
+			},
+			"openApi": {
+				"title": "API Aberta",
+				"description": "Acesso completo a API para integrações customizadas e automação."
+			}
+		},
+		"finalCta": {
+			"title": "Conecte o SimUser AI ao seu fluxo de trabalho",
+			"subtitle": "Entre na lista de espera para ser o primeiro a acessar nosso ecossistema de integrações."
+		}
+	},
+	"about": {
+		"title": "Sobre o SimUser AI",
+		"subtitle": "Acreditamos que todo produto merece ser testado pelos usuários para os quais foi construído — mesmo quando esses usuários ainda não existem.",
+		"badge": "Nossa História",
+		"cta": {
+			"primary": "Entrar na Lista de Espera"
+		},
+		"mission": {
+			"heading": "Nossa Missão",
+			"statement": "Todo produto merece ser testado pelos usuários para os quais foi construído — mesmo quando esses usuários ainda não existem.",
+			"description": "O mundo está construindo software mais rápido do que nunca — 41% do código é agora gerado por IA. Mas a qualidade do código está declinando proporcionalmente. SimUser AI existe para fechar essa lacuna."
+		},
+		"team": {
+			"heading": "O Time",
+			"subheading": "Construído por engenheiros que viveram o problema.",
+			"ceo": {
+				"name": "Líder de Engenharia",
+				"background": "13+ anos em engenharia, ex-Engineering Manager liderando equipes de SRE, Segurança e GenAI",
+				"relevance": "Profundo entendimento dos desafios de qualidade de software, fluxos de teste e os pontos de dor que o SimUser AI resolve."
+			},
+			"cto": {
+				"name": "Líder de IA/ML",
+				"background": "Líder técnico com expertise em IA/ML",
+				"relevance": "Constrói o motor autônomo de personas e a arquitetura agêntica que alimenta o SimUser AI."
+			}
+		},
+		"facts": {
+			"heading": "Fatos da Empresa",
+			"founded": {
+				"label": "Fundada",
+				"value": "2026"
+			},
+			"structure": {
+				"label": "Estrutura",
+				"value": "LLC em Delaware via Stripe Atlas"
+			},
+			"stage": {
+				"label": "Estágio",
+				"value": "Pré-lançamento, lançamento comercial Abril 2026"
+			},
+			"trademark": {
+				"label": "Marca",
+				"value": "Registrada no INPI (Brasil), Classe 42"
+			},
+			"domain": {
+				"label": "Domínio",
+				"value": "simuser.ai"
+			}
+		},
+		"academic": {
+			"heading": "Validação Acadêmica",
+			"subheading": "Nossa abordagem é fundamentada em pesquisa revisada por pares.",
+			"paper1": {
+				"title": "SimUSER: Simulando Comportamento de Usuário com LLMs",
+				"venue": "ACL 2025",
+				"authors": "Bougie & Watanabe",
+				"description": "Introduziu arquiteturas cognitivas para simulação de usuários baseada em LLM."
+			},
+			"paper2": {
+				"title": "UXAgent",
+				"venue": "CHI EA 2025",
+				"authors": "Lu et al.",
+				"description": "Demonstrou usuários simulados por LLM testando sites reais via Chrome."
+			},
+			"paper3": {
+				"title": "SimUser: Gerando Feedback de Usabilidade",
+				"venue": "CHI 2024",
+				"authors": "Xiang et al.",
+				"description": "20 rodadas de feedback simulado cobriram 70% dos cenários explorados por 48 participantes humanos e identificaram 80% dos problemas de usabilidade."
+			}
+		},
+		"founderCta": {
+			"heading": "Quer saber mais?",
+			"message": "Adoramos falar sobre o problema que estamos resolvendo. Se você está lidando com desafios de teste ou apenas curioso sobre personas de IA, vamos conectar."
+		},
+		"finalCta": {
+			"title": "Junte-se a nós para reimaginar testes beta",
+			"subtitle": "Seja entre os primeiros a testar com personas de IA que pensam como usuários reais."
+		}
+	},
+	"compare": {
+		"badge": "Comparação com Concorrentes",
+		"heading": "Por Que Equipes Escolhem o SimUser AI",
+		"subtitle": "Cada alternativa deixa uma lacuna. O SimUser AI preenche todas.",
+		"competitors": {
+			"momentic": {
+				"name": "Ferramenta de Testes E2E com IA",
+				"category": "Autoria de Testes E2E com IA",
+				"keyWeakness": "Verifica se botões funcionam, mas não tem nenhum insight sobre se os usuários realmente gostam da experiência. Sem simulação de personas, sem feedback qualitativo, sem NPS.",
+				"simuserAdvantage": "O SimUser AI diz o que os usuários pensam e sentem sobre seu produto — não apenas se o código executa."
+			},
+			"qaWolf": {
+				"name": "Serviço Gerenciado de QA",
+				"category": "Serviço Gerenciado de QA",
+				"keyWeakness": "Cobra US$15-20K+/mês, exige 4 meses de onboarding e entrega resultados de testes — não insights de experiência do usuário. Feito apenas para grandes equipes enterprise.",
+				"simuserAdvantage": "O SimUser AI entrega feedback de UX baseado em personas em minutos, a partir de US$49/mês. Sem onboarding. Sem equipe humana de QA."
+			},
+			"applause": {
+				"name": "Plataforma de Testes Crowdsourced",
+				"category": "Testes com Humanos Crowdsourced",
+				"keyWeakness": "Coordena 300.000 testadores humanos por US$25K-US$590K/ano. Resultados levam semanas. Qualidade dos testadores varia. Agendamento é um pesadelo.",
+				"simuserAdvantage": "O SimUser AI substitui semanas de coordenação por personas de IA que entregam resultados consistentes e reproduzíveis em minutos — por 99% menos."
+			},
+			"syntheticUsers": {
+				"name": "Ferramenta de Entrevistas com IA",
+				"category": "Entrevistas com Personas IA",
+				"keyWeakness": "Faz entrevistas somente em texto sobre o que usuários poderiam fazer. Sem navegador. Sem capturas de tela. Sem vídeo. Sem evidência de interação real com seu produto.",
+				"simuserAdvantage": "As personas do SimUser AI abrem navegadores reais e interagem com sua aplicação ao vivo — entregando capturas de tela, gravações de vídeo e comportamento observado, não hipóteses."
+			},
+			"blok": {
+				"name": "Plataforma de Testes A/B Sintéticos",
+				"category": "Testes A/B Sintéticos",
+				"keyWeakness": "Valida conceitos de produto antes de construí-los. Não consegue testar sua aplicação ao vivo. Sem execução real em navegador, sem gravações de sessão, sem NPS sobre uso real.",
+				"simuserAdvantage": "O SimUser AI testa seu produto publicado em navegadores reais — cada clique é real, cada pontuação NPS é baseada em interação real."
+			},
+			"uxia": {
+				"name": "Analisador de Arquivos de Design",
+				"category": "Análise de UX em Arquivos de Design",
+				"keyWeakness": "Analisa mockups estáticos do Figma/Sketch para mapas de calor e conformidade WCAG. Não consegue testar aplicações ao vivo, descobrir fluxos quebrados ou dar feedback qualitativo de personas.",
+				"simuserAdvantage": "O SimUser AI testa sua aplicação publicada com 7 personas de IA que navegam, clicam e reportam — com gravações completas de sessão e pontuações NPS."
+			},
+			"octomind": {
+				"name": "Gerador de Testes com IA",
+				"category": "Geração de Testes E2E com IA",
+				"keyWeakness": "Gera testes Playwright automaticamente e diz se passam ou falham. Não tem conceito de experiência do usuário — sem personas, sem feedback qualitativo, sem NPS. A partir de US$89/mês.",
+				"simuserAdvantage": "O SimUser AI vai além do aprovado/reprovado. Obtenha pontuações NPS, feedback qualitativo de 7 personas e relatórios de experiência — a partir de US$49/mês."
+			}
+		},
+		"cta": {
+			"title": "Pronto para ver a diferença?",
+			"subtitle": "Entre na lista de espera e comece a testar com personas de IA que pensam como usuários reais.",
+			"primary": "Garantir Acesso Antecipado"
+		},
+		"viewDetail": "Ver comparação completa",
+		"theirGap": "A Lacuna Deles",
+		"ourEdge": "Vantagem SimUser AI"
+	}
+}

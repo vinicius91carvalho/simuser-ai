@@ -1,0 +1,40 @@
+{
+	"nav": {
+		"product": "Produto",
+		"pricing": "Precos",
+		"compare": "Comparar",
+		"getStarted": "Entrar na Lista",
+		"home": "Inicio"
+	},
+	"footer": {
+		"brand": {
+			"tagline": "Testes beta com IA usando personas sinteticas que pensam, sentem e quebram seu app como usuarios reais."
+		},
+		"product": {
+			"title": "Produto",
+			"product": "Produto",
+			"pricing": "Precos",
+			"compare": "Comparar"
+		},
+		"company": {
+			"title": "Empresa",
+			"contact": "Contato"
+		},
+		"legal": {
+			"title": "Legal",
+			"privacy": "Politica de Privacidade",
+			"terms": "Termos de Servico"
+		},
+		"copyright": "SimUser AI. Todos os direitos reservados.",
+		"builtWith": "Fundada em Delaware, testada por IA."
+	},
+	"theme": {
+		"toggleDark": "Mudar para modo escuro",
+		"toggleLight": "Mudar para modo claro"
+	},
+	"language": {
+		"label": "Idioma",
+		"en": "English",
+		"pt-br": "Portugues"
+	}
+}

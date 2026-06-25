@@ -1,0 +1,104 @@
+{
+	"privacy": {
+		"title": "Politica de Privacidade",
+		"lastUpdated": "Ultima atualizacao: Marco 2026",
+		"intro": "SimUser AI LLC (\"SimUser AI\", \"nos\" ou \"nosso\") esta comprometido em proteger sua privacidade. Esta Politica de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informacoes quando voce usa nosso servico.",
+		"sections": {
+			"dataCollection": {
+				"title": "1. Dados que Coletamos",
+				"content": "Coletamos informacoes que voce fornece diretamente, incluindo seu nome, endereco de email, nome da empresa e tamanho da equipe ao se inscrever na nossa lista de espera ou criar uma conta. Quando voce usa nosso servico, coletamos URLs e credenciais da sua aplicacao (criptografados com AES-256), capturas de tela e gravacoes de video de sessoes de personas IA, relatorios de experiencia e pontuacoes de qualidade gerados pela nossa IA, e metricas de uso para melhorar nosso servico."
+			},
+			"dataUse": {
+				"title": "2. Como Usamos Seus Dados",
+				"content": "Usamos os dados coletados para fornecer e melhorar nosso servico de testes com personas IA, gerar relatorios de experiencia, pontuacoes NPS e notas de qualidade para suas aplicacoes, comunicar atualizacoes de servico e novos recursos, e garantir a seguranca e integridade da nossa plataforma. Nunca usamos seus dados de aplicacao, capturas de tela ou resultados de teste para treinar modelos de IA."
+			},
+			"dataProtection": {
+				"title": "3. Protecao de Dados",
+				"content": "Implementamos medidas de seguranca padrao da industria incluindo criptografia AES-256 em repouso via AWS Secrets Manager, criptografia TLS 1.3 em transito para todos os dados, isolamento de dados por tenant com chaves de criptografia dedicadas, deteccao e mascaramento automatico de PII em capturas de tela antes do processamento LLM, e AWS PrivateLink para conectividade privada a endpoints de modelos de IA."
+			},
+			"dataRetention": {
+				"title": "4. Retencao de Dados",
+				"content": "Retemos seus dados por um periodo padrao de 30 dias, com politicas de retencao customizaveis disponiveis para todos os planos. Voce pode solicitar periodos de retencao mais curtos ou exclusao imediata a qualquer momento. Dados de credenciais sao automaticamente removidos quando voce desconecta uma aplicacao."
+			},
+			"thirdParty": {
+				"title": "5. Servicos de Terceiros",
+				"content": "Usamos AWS (Amazon Web Services) para infraestrutura, incluindo AWS Bedrock para inferencia de modelos de IA. AWS Bedrock garante que provedores de modelos de IA (incluindo Anthropic) tenham zero acesso aos seus prompts e completions, em conformidade com a certificacao ISO/IEC 42001. Nao vendemos, comercializamos ou transferimos seus dados para terceiros para fins de marketing."
+			},
+			"yourRights": {
+				"title": "6. Seus Direitos",
+				"content": "Voce tem o direito de acessar, corrigir ou excluir seus dados pessoais, solicitar uma copia dos seus dados em formato portatil, optar por nao receber comunicacoes nao essenciais, e solicitar informacoes sobre como seus dados sao processados. Para LGPD (Brasil): solicitacoes de titulares de dados sao processadas em ate 15 dias, com notificacao de violacao em ate 72 horas."
+			},
+			"cookies": {
+				"title": "7. Cookies e Rastreamento",
+				"content": "Usamos cookies essenciais para manter sua sessao e preferencias. Nao usamos cookies de rastreamento de terceiros ou pixels de publicidade. Dados de analytics sao coletados de forma agregada e nao podem ser usados para identificar usuarios individuais."
+			},
+			"children": {
+				"title": "8. Privacidade de Criancas",
+				"content": "Nosso servico nao e direcionado a individuos menores de 18 anos. Nao coletamos intencionalmente informacoes pessoais de criancas."
+			},
+			"changes": {
+				"title": "9. Alteracoes nesta Politica",
+				"content": "Podemos atualizar esta Politica de Privacidade periodicamente. Notificaremos sobre quaisquer mudancas materiais publicando a nova politica nesta pagina e atualizando a data de 'Ultima atualizacao'."
+			},
+			"contact": {
+				"title": "10. Contato",
+				"content": "Se voce tiver duvidas sobre esta Politica de Privacidade ou nossas praticas de dados, entre em contato em privacy@simuser.ai."
+			}
+		}
+	},
+	"terms": {
+		"title": "Termos de Servico",
+		"lastUpdated": "Ultima atualizacao: Marco 2026",
+		"intro": "Estes Termos de Servico (\"Termos\") regem o uso da plataforma e servicos SimUser AI fornecidos pela SimUser AI LLC (\"SimUser AI\", \"nos\" ou \"nosso\"). Ao usar nosso servico, voce concorda com estes Termos.",
+		"sections": {
+			"acceptance": {
+				"title": "1. Aceitacao dos Termos",
+				"content": "Ao acessar ou usar o SimUser AI, voce concorda em ficar vinculado a estes Termos e a nossa Politica de Privacidade. Se voce esta usando o servico em nome de uma organizacao, voce declara ter autoridade para vincular essa organizacao a estes Termos."
+			},
+			"serviceDescription": {
+				"title": "2. Descricao do Servico",
+				"content": "SimUser AI fornece testes beta com IA atraves de personas sinteticas. Nosso servico inclui descoberta automatica de fluxos das suas aplicacoes web, testes guiados por personas de IA com perfis comportamentais, relatorios de experiencia com pontuacoes NPS, notas de qualidade e feedback qualitativo, e integracao com rastreadores de issues, ferramentas de comunicacao e pipelines CI/CD."
+			},
+			"accounts": {
+				"title": "3. Contas e Acesso",
+				"content": "Voce deve fornecer informacoes precisas ao criar uma conta. Voce e responsavel por manter a seguranca das suas credenciais de conta. Voce deve nos notificar imediatamente sobre qualquer acesso nao autorizado. Reservamo-nos o direito de suspender contas que violem estes Termos."
+			},
+			"credits": {
+				"title": "4. Creditos e Cobranca",
+				"content": "SimUser AI usa um modelo de precificacao baseado em creditos. Creditos sao consumidos quando personas de IA executam fluxos de teste contra suas aplicacoes. Creditos nao utilizados sao transferidos de acordo com os termos do seu plano. Pacotes de creditos podem ser adquiridos para uso adicional. A cobranca e processada via Stripe. Todos os precos sao em USD."
+			},
+			"appCredentials": {
+				"title": "5. Credenciais de Aplicacao",
+				"content": "Ao fornecer credenciais de aplicacao para testes, voce declara que tem autorizacao para testar a aplicacao, as credenciais sao para um ambiente de testes ou staging, e voce nao usara o servico para testar aplicacoes que nao possui ou nao tem permissao para testar. Criptografamos todas as credenciais com AES-256 e as armazenamos no AWS Secrets Manager. Credenciais nunca sao registradas, expostas ou transmitidas a endpoints de modelos de IA."
+			},
+			"intellectualProperty": {
+				"title": "6. Propriedade Intelectual",
+				"content": "Voce mantem todos os direitos sobre seus dados de aplicacao, capturas de tela e resultados de testes. SimUser AI mantem direitos sobre a plataforma, modelos de IA, motor de personas e toda tecnologia proprietaria. Relatorios de experiencia gerados pelo servico sao de sua propriedade e podem ser usados livremente dentro da sua organizacao."
+			},
+			"prohibitedUse": {
+				"title": "7. Uso Proibido",
+				"content": "Voce nao pode usar o SimUser AI para testar aplicacoes sem autorizacao adequada, tentar fazer engenharia reversa do motor de personas IA, usar o servico para coleta de inteligencia competitiva contra outros clientes SimUser AI, exceder limites de taxa ou abusar da plataforma, ou compartilhar credenciais de conta com partes nao autorizadas."
+			},
+			"liability": {
+				"title": "8. Limitacao de Responsabilidade",
+				"content": "SimUser AI fornece insights e feedback de testes gerados por personas de IA. Este feedback e de natureza consultiva e nao deve ser a unica base para decisoes de produto. Nao somos responsaveis por bugs ou problemas nao detectados por personas de IA, decisoes de negocio baseadas em feedback gerado por IA, tempo de inatividade ou interrupcoes de servico alem do nosso controle razoavel, ou danos indiretos, incidentais ou consequentes."
+			},
+			"termination": {
+				"title": "9. Rescisao",
+				"content": "Qualquer parte pode encerrar o servico a qualquer momento. Apos a rescisao, seus dados serao retidos de acordo com sua politica de retencao (padrao de 30 dias) e entao permanentemente excluidos. Creditos nao utilizados nao sao reembolsaveis, exceto quando exigido por lei aplicavel."
+			},
+			"governing": {
+				"title": "10. Lei Aplicavel",
+				"content": "Estes Termos sao regidos pelas leis do Estado de Delaware, Estados Unidos. Quaisquer disputas serao resolvidas por arbitragem vinculante de acordo com as regras da American Arbitration Association."
+			},
+			"changes": {
+				"title": "11. Alteracoes nos Termos",
+				"content": "Podemos atualizar estes Termos periodicamente. Mudancas materiais serao comunicadas por email ou notificacao no app com pelo menos 30 dias de antecedencia."
+			},
+			"contact": {
+				"title": "12. Contato",
+				"content": "Para duvidas sobre estes Termos, entre em contato em legal@simuser.ai."
+			}
+		}
+	}
+}

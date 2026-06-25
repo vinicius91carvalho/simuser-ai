@@ -1,0 +1,16 @@
+/* SimUser AI — Font Declarations
+ * Using Inter for body text (clean, modern, variable)
+ * Using JetBrains Mono for code/technical elements
+ * Loaded via next/font in the app — these are fallback declarations
+ */
+
+:root {
+	--font-sans:
+		"Inter", "Inter Variable", ui-sans-serif, system-ui, -apple-system,
+		BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-mono:
+		"JetBrains Mono", "JetBrains Mono Variable", ui-monospace, SFMono-Regular,
+		"SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	--font-display:
+		"Inter", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}

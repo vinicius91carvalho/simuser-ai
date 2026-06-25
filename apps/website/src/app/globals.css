@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Theme system — tokens, fonts, keyframes */
+@import "@simuser/ui/themes/simuser/entry.css";
+
+/* Shared base styles */
+@import "@simuser/ui/shared/base.css";
+
+/* Source packages for Tailwind class detection */
+@source "../../packages/ui/src/**/*.{ts,tsx,css}";
+
+/* Animation utility classes — must be at top level for Tailwind v4 */
+@utility animate-fade-up {
+	animation: fade-up 0.6s ease-out forwards;
+}
+
+@utility animate-fade-in {
+	animation: fade-in 0.5s ease-out forwards;
+}
+
+@utility animate-fade-left {
+	animation: fade-left 0.6s ease-out forwards;
+}
+
+@utility animate-fade-right {
+	animation: fade-right 0.6s ease-out forwards;
+}
+
+@utility animate-scale-up {
+	animation: scale-up 0.5s ease-out forwards;
+}
+
+@utility animate-bounce-in {
+	animation: bounce-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@utility animate-glow-pulse {
+	animation: glow-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-shimmer {
+	animation: shimmer 2s linear infinite;
+	background-size: 200% 100%;
+}
+
+@utility animate-float {
+	animation: float 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-button-glow {
+	animation: button-glow 3.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-pulse-ring {
+	animation: pulse-ring 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-soft-pulse {
+	animation: soft-pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-scroll {
+	animation: scroll 30s linear infinite;
+}
+
+@utility animate-scroll-reverse {
+	animation: scroll-reverse 30s linear infinite;
+}
+
+@utility animate-accordion-down {
+	animation: accordion-down 0.2s ease-out;
+}
+
+@utility animate-accordion-up {
+	animation: accordion-up 0.2s ease-out;
+}
+
+@utility animate-depth-shift {
+	animation: depth-shift 0.6s ease-out forwards;
+}
+
+@utility animate-gradient-shift {
+	animation: gradient-shift 6s ease infinite;
+	background-size: 200% 200%;
+}

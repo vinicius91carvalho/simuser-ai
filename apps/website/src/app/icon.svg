@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#0DD9B0"/>
+    </linearGradient>
+  </defs>
+  <!-- Transparent background -->
+  <!-- Tertiary ghost user (furthest back) -->
+  <circle cx="10.4" cy="13.4" r="2.1" fill="#8B5CF6" opacity="0.18"/>
+  <path d="M10.4 16 C8.48 16, 6.4 17.44, 6.4 20 L6.4 20.64 C6.4 21.12, 6.8 21.44, 7.2 21.44 L13.6 21.44 C14.08 21.44, 14.4 21.12, 14.4 20.64 L14.4 20 C14.4 17.44, 12.32 16, 10.4 16Z" fill="#8B5CF6" opacity="0.15"/>
+  <!-- Secondary ghost user -->
+  <circle cx="13" cy="12" r="3" fill="#0DD9B0" opacity="0.35"/>
+  <path d="M13 16 C10 16, 7 18.5, 7 21.5 L7 22.5 C7 23.2, 7.5 23.5, 8 23.5 L18 23.5" fill="#0DD9B0" opacity="0.3"/>
+  <!-- Primary user (front) -->
+  <circle cx="18" cy="10" r="4" fill="url(#fg)"/>
+  <path d="M18 15 C14 15, 10 18, 10 22 L10 23 C10 24, 11 24.5, 12 24.5 L24 24.5 C25 24.5, 26 24, 26 23 L26 22 C26 18, 22 15, 18 15Z" fill="url(#fg)"/>
+</svg>
