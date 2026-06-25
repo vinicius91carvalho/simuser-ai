@@ -16,28 +16,28 @@ const SCREENSHOT_DIR = path.resolve(__dirname, "screenshots");
 
 /** All routes for EN locale (no locale prefix in static output) */
 const EN_ROUTES = [
-	{ name: "home", path: "/en/" },
-	{ name: "product", path: "/en/product/" },
-	{ name: "pricing", path: "/en/pricing/" },
-	{ name: "security", path: "/en/security/" },
-	{ name: "get-started", path: "/en/get-started/" },
-	{ name: "compare", path: "/en/compare/" },
-	{ name: "privacy", path: "/en/privacy/" },
-	{ name: "terms", path: "/en/terms/" },
-	{ name: "staging-auth", path: "/en/staging-auth/" },
+	{ name: "home", path: "/simuser-ai/en/" },
+	{ name: "product", path: "/simuser-ai/en/product/" },
+	{ name: "pricing", path: "/simuser-ai/en/pricing/" },
+	{ name: "security", path: "/simuser-ai/en/security/" },
+	{ name: "get-started", path: "/simuser-ai/en/get-started/" },
+	{ name: "compare", path: "/simuser-ai/en/compare/" },
+	{ name: "privacy", path: "/simuser-ai/en/privacy/" },
+	{ name: "terms", path: "/simuser-ai/en/terms/" },
+	{ name: "staging-auth", path: "/simuser-ai/en/staging-auth/" },
 ];
 
 /** All routes for PT-BR locale */
 const PT_BR_ROUTES = [
-	{ name: "home", path: "/pt-br/" },
-	{ name: "product", path: "/pt-br/product/" },
-	{ name: "pricing", path: "/pt-br/pricing/" },
-	{ name: "security", path: "/pt-br/security/" },
-	{ name: "get-started", path: "/pt-br/get-started/" },
-	{ name: "compare", path: "/pt-br/compare/" },
-	{ name: "privacy", path: "/pt-br/privacy/" },
-	{ name: "terms", path: "/pt-br/terms/" },
-	{ name: "staging-auth", path: "/pt-br/staging-auth/" },
+	{ name: "home", path: "/simuser-ai/pt-br/" },
+	{ name: "product", path: "/simuser-ai/pt-br/product/" },
+	{ name: "pricing", path: "/simuser-ai/pt-br/pricing/" },
+	{ name: "security", path: "/simuser-ai/pt-br/security/" },
+	{ name: "get-started", path: "/simuser-ai/pt-br/get-started/" },
+	{ name: "compare", path: "/simuser-ai/pt-br/compare/" },
+	{ name: "privacy", path: "/simuser-ai/pt-br/privacy/" },
+	{ name: "terms", path: "/simuser-ai/pt-br/terms/" },
+	{ name: "staging-auth", path: "/simuser-ai/pt-br/staging-auth/" },
 ];
 
 const ALL_ROUTES = [
@@ -188,7 +188,7 @@ test.describe("Mobile responsive — no horizontal overflow", () => {
 test.describe("Key elements verification", () => {
 	test("homepage has hero section and CTA", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		const response = await page.goto("/en/", { waitUntil: "load", timeout: 30_000 });
+		const response = await page.goto("/simuser-ai/en/", { waitUntil: "load", timeout: 30_000 });
 		await page.waitForTimeout(1000);
 		// Debug: check what we got
 		const html = await page.content();
@@ -207,35 +207,35 @@ test.describe("Key elements verification", () => {
 
 	test("pricing page has plan cards", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		await page.goto("/en/pricing/", { waitUntil: "domcontentloaded" });
+		await page.goto("/simuser-ai/en/pricing/", { waitUntil: "domcontentloaded" });
 		const main = page.locator("main");
 		await expect(main).toBeVisible();
 	});
 
 	test("get-started page has form", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		await page.goto("/en/get-started/", { waitUntil: "domcontentloaded" });
+		await page.goto("/simuser-ai/en/get-started/", { waitUntil: "domcontentloaded" });
 		const main = page.locator("main");
 		await expect(main).toBeVisible();
 	});
 
 	test("navigation is present", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		await page.goto("/en/", { waitUntil: "domcontentloaded" });
+		await page.goto("/simuser-ai/en/", { waitUntil: "domcontentloaded" });
 		const header = page.locator("header");
 		await expect(header).toBeVisible();
 	});
 
 	test("footer is present", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		await page.goto("/en/", { waitUntil: "domcontentloaded" });
+		await page.goto("/simuser-ai/en/", { waitUntil: "domcontentloaded" });
 		const footer = page.locator("footer");
 		await expect(footer).toBeVisible();
 	});
 
 	test("PT-BR locale loads correctly", async ({ page }, testInfo) => {
 		test.skip(testInfo.project.name !== "desktop", "Only runs on desktop viewport");
-		await page.goto("/pt-br/", { waitUntil: "domcontentloaded" });
+		await page.goto("/simuser-ai/pt-br/", { waitUntil: "domcontentloaded" });
 		const main = page.locator("main");
 		await expect(main).toBeVisible();
 		// Verify content is in Portuguese
@@ -256,7 +256,7 @@ test.describe("Reduced motion support", () => {
 		});
 		const page = await context.newPage();
 
-		await page.goto("/en/", {
+		await page.goto("/simuser-ai/en/", {
 			waitUntil: "domcontentloaded",
 		});
 

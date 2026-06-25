@@ -297,6 +297,42 @@ function FormFields({
 	);
 }
 
+function PocState({
+	className,
+	onClose,
+}: {
+	className?: string;
+	onClose: () => void;
+}) {
+	return (
+		<div
+			className={cn(
+				"flex flex-col items-center justify-center py-8 text-center",
+				className,
+			)}
+		>
+			<div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[hsl(var(--accent)/0.1)]">
+				<CheckmarkIcon className="h-8 w-8 text-[hsl(var(--accent))]" />
+			</div>
+			<p className="text-lg font-semibold text-[hsl(var(--foreground))]">
+				This is only a proof of concept
+			</p>
+			<p className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
+				Nothing was sent and no data was stored — there's no backend behind this
+				form. SimUser AI was once live at simuser.ai; this is a static demo of
+				the marketing site, kept around for the curious.
+			</p>
+			<button
+				type="button"
+				onClick={onClose}
+				className="mt-6 inline-flex items-center justify-center rounded-lg border border-[hsl(var(--border))] bg-transparent px-6 py-2 text-sm font-medium text-[hsl(var(--foreground))] transition-all hover:bg-[hsl(var(--muted))]"
+			>
+				Close
+			</button>
+		</div>
+	);
+}
+
 export function NotifyFormFields({
 	idPrefix,
 	formData,
@@ -310,6 +346,10 @@ export function NotifyFormFields({
 	successClassName,
 	onClose,
 }: NotifyFormFieldsProps) {
+	if (status === "poc") {
+		return <PocState className={successClassName} onClose={onClose} />;
+	}
+
 	if (status === "success" || status === "already") {
 		return (
 			<SuccessState

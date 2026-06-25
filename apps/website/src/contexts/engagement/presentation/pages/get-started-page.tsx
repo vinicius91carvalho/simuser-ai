@@ -40,7 +40,20 @@ export function GetStartedPageContent() {
 					{/* Left: Form */}
 					<AnimateOnScroll variant="fade-up">
 						<div className="rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] p-6 sm:p-8">
-							{status === "success" || status === "already" ? (
+							{status === "poc" ? (
+								<div className="py-12 text-center">
+									<div className="mb-4 text-5xl">&#127881;</div>
+									<h2 className="mb-2 text-2xl font-bold text-[hsl(var(--foreground))]">
+										This is only a proof of concept
+									</h2>
+									<p className="text-[hsl(var(--muted-foreground))]">
+										Nothing was sent and no data was stored — there&apos;s no
+										backend behind this form. SimUser AI was once live at
+										simuser.ai; this is a static demo of the marketing site,
+										kept around for the curious.
+									</p>
+								</div>
+							) : status === "success" || status === "already" ? (
 								<div className="py-12 text-center">
 									<div className="mb-4 text-5xl">&#127881;</div>
 									<h2 className="mb-2 text-2xl font-bold text-[hsl(var(--foreground))]">

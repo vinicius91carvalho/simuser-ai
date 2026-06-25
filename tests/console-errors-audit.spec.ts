@@ -7,25 +7,25 @@ import { test, expect } from "@playwright/test";
  */
 
 const EN_ROUTES = [
-	{ name: "home", path: "/en/" },
-	{ name: "product", path: "/en/product/" },
-	{ name: "pricing", path: "/en/pricing/" },
-	{ name: "security", path: "/en/security/" },
-	{ name: "get-started", path: "/en/get-started/" },
-	{ name: "compare", path: "/en/compare/" },
-	{ name: "privacy", path: "/en/privacy/" },
-	{ name: "terms", path: "/en/terms/" },
+	{ name: "home", path: "/simuser-ai/en/" },
+	{ name: "product", path: "/simuser-ai/en/product/" },
+	{ name: "pricing", path: "/simuser-ai/en/pricing/" },
+	{ name: "security", path: "/simuser-ai/en/security/" },
+	{ name: "get-started", path: "/simuser-ai/en/get-started/" },
+	{ name: "compare", path: "/simuser-ai/en/compare/" },
+	{ name: "privacy", path: "/simuser-ai/en/privacy/" },
+	{ name: "terms", path: "/simuser-ai/en/terms/" },
 ];
 
 const PT_BR_ROUTES = [
-	{ name: "home", path: "/pt-br/" },
-	{ name: "product", path: "/pt-br/product/" },
-	{ name: "pricing", path: "/pt-br/pricing/" },
-	{ name: "security", path: "/pt-br/security/" },
-	{ name: "get-started", path: "/pt-br/get-started/" },
-	{ name: "compare", path: "/pt-br/compare/" },
-	{ name: "privacy", path: "/pt-br/privacy/" },
-	{ name: "terms", path: "/pt-br/terms/" },
+	{ name: "home", path: "/simuser-ai/pt-br/" },
+	{ name: "product", path: "/simuser-ai/pt-br/product/" },
+	{ name: "pricing", path: "/simuser-ai/pt-br/pricing/" },
+	{ name: "security", path: "/simuser-ai/pt-br/security/" },
+	{ name: "get-started", path: "/simuser-ai/pt-br/get-started/" },
+	{ name: "compare", path: "/simuser-ai/pt-br/compare/" },
+	{ name: "privacy", path: "/simuser-ai/pt-br/privacy/" },
+	{ name: "terms", path: "/simuser-ai/pt-br/terms/" },
 ];
 
 const ALL_ROUTES = [

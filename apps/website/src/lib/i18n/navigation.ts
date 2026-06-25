@@ -5,7 +5,11 @@ import { defaultLocale, locales } from "./config";
 export const routing = defineRouting({
 	locales,
 	defaultLocale,
-	localePrefix: "as-needed",
+	// "always" (not "as-needed") is required for the static export: without
+	// middleware to rewrite unprefixed paths, the default-locale pages only
+	// exist under /en, so links must carry the /en prefix too. Root "/" gets a
+	// generated redirect into the default locale.
+	localePrefix: "always",
 	localeDetection: false,
 });
 

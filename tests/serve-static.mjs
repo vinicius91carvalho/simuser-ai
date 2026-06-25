@@ -40,8 +40,22 @@ async function fileExists(filePath) {
 	}
 }
 
+// Production serves the site under a /simuser-ai base path (GitHub Pages).
+// The exported files live at the root of out/, but their URLs carry the
+// prefix, so strip it here to map /simuser-ai/foo -> out/foo.
+const BASE_PATH = "/simuser-ai";
+
 async function handler(req, res) {
-	let urlPath = new URL(req.url, `http://localhost:${PORT}`).pathname;
+	// Decode percent-encoding so Next's dynamic-route chunks resolve: the
+	// browser requests .../app/%5Blocale%5D/layout-*.js but the file on disk
+	// is literally app/[locale]/layout-*.js. (A real host decodes this too.)
+	let urlPath = decodeURIComponent(
+		new URL(req.url, `http://localhost:${PORT}`).pathname,
+	);
+
+	if (urlPath === BASE_PATH || urlPath.startsWith(`${BASE_PATH}/`)) {
+		urlPath = urlPath.slice(BASE_PATH.length) || "/";
+	}
 
 	// Try these paths in order:
 	const candidates = [

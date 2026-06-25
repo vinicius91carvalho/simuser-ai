@@ -1,13 +1,14 @@
 "use client";
 
-import { useLocale } from "next-intl";
 import { useCallback, useEffect, useState } from "react";
-import type {
-	NotifyPayload,
-	NotifyResponse,
-} from "@/contexts/engagement/api/notify-handler";
 
-export type FormStatus = "idle" | "loading" | "success" | "already" | "error";
+export type FormStatus =
+	| "idle"
+	| "loading"
+	| "success"
+	| "already"
+	| "error"
+	| "poc";
 
 export interface NotifyFormData {
 	firstName: string;
@@ -72,9 +73,6 @@ export function useNotifyForm({
 	onSuccess,
 	initialEmail,
 }: UseNotifyFormOptions = {}): UseNotifyFormReturn {
-	const locale = useLocale();
-	const language = locale.startsWith("pt") ? "pt" : "en";
-
 	const [formData, setFormData] = useState<NotifyFormData>(() =>
 		initialEmail
 			? { ...INITIAL_FORM_DATA, email: initialEmail }
@@ -122,46 +120,14 @@ export function useNotifyForm({
 				return;
 			}
 
-			setStatus("loading");
+			// POC build: there is no backend to submit to. The original site
+			// posted to /api/notify (Loops.so); here we just acknowledge the
+			// submission with a "this is a demo" notice. Confetti still fires.
 			setErrorMessage("");
-
-			try {
-				const payload: NotifyPayload = {
-					email: formData.email,
-					firstName: formData.firstName,
-					companyName: formData.companyName,
-					companyWebsite: formData.companyWebsite,
-					language: language as "en" | "pt",
-					_gotcha: "",
-				};
-
-				const response = await fetch("/api/notify", {
-					method: "POST",
-					headers: { "Content-Type": "application/json" },
-					body: JSON.stringify(payload),
-				});
-
-				const result: NotifyResponse = await response.json();
-
-				if (result.success) {
-					if (result.alreadySubscribed) {
-						setStatus("already");
-					} else {
-						setStatus("success");
-						onSuccess?.();
-					}
-				} else {
-					setStatus("error");
-					setErrorMessage(
-						result.message ?? "Something went wrong. Please try again.",
-					);
-				}
-			} catch {
-				setStatus("error");
-				setErrorMessage("An unexpected error occurred. Please try again.");
-			}
+			setStatus("poc");
+			onSuccess?.();
 		},
-		[formData, language, onSuccess],
+		[formData, onSuccess],
 	);
 
 	return {

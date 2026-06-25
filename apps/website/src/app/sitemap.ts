@@ -1,5 +1,8 @@
 import type { MetadataRoute } from "next";
 
+// Required for `output: export` — emit a static sitemap.xml at build time.
+export const dynamic = "force-static";
+
 const BASE_URL = "https://simuser.ai";
 const LOCALES = ["en", "pt-br"] as const;
 const DEFAULT_LOCALE = "en";

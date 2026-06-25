@@ -4,7 +4,10 @@ import { cn } from "@simuser/ui";
 import { cva, type VariantProps } from "class-variance-authority";
 import type { ReactNode } from "react";
 
-const sectionVariants = cva("w-full", {
+// overflow-x-clip trims sub-pixel horizontal bleed (e.g. flex-gap rounding in
+// step cards) so mobile has no stray horizontal scroll. Unlike overflow:hidden
+// it doesn't create a scroll container, so sticky/fixed elements are unaffected.
+const sectionVariants = cva("w-full overflow-x-clip", {
 	variants: {
 		variant: {
 			default: "bg-[hsl(var(--background))]",

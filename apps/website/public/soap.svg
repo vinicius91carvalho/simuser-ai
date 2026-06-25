@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="110" viewBox="0 0 160 110" role="img" aria-label="A pink bar of soap">
+  <defs>
+    <linearGradient id="soap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9ec4"/>
+      <stop offset="1" stop-color="#f06a9b"/>
+    </linearGradient>
+  </defs>
+  <!-- bar -->
+  <rect x="14" y="26" width="132" height="64" rx="22" fill="url(#soap)"/>
+  <!-- top sheen -->
+  <rect x="26" y="34" width="108" height="16" rx="8" fill="#ffffff" opacity="0.35"/>
+  <!-- embossed line of text, generic -->
+  <text x="80" y="68" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="3" font-weight="700" fill="#ffffff" opacity="0.85">SOAP</text>
+</svg>
